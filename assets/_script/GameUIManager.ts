@@ -14,6 +14,9 @@ export interface ICourseOpenParam {
   courseId: number;
   isGame?: boolean;
   targetNode?: Node | null;
+  /** 手指拖拽演示起点 / 终点（2.x `CourseView.updateMoveTargetNode`） */
+  targetNode1?: Node | null;
+  targetNode2?: Node | null;
 }
 
 export let gameUIMgr: GameUIManager | null = null;

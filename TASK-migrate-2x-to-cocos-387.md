@@ -74,12 +74,27 @@
 4. 用 MCP 重建或迁移场景/预制体与组件绑定；脚本按 3.x API 分批替换。
 5. 运行与构建验证，记录与 2.x 的差异与待办。
 
+### 4.1 当前默认迭代：主包 `_script` 未迁列表
+
+| 项 | 说明 |
+|----|------|
+| **工作对象** | 主包脚本：`2x/assets/_script/*.js` → `assets/_script/*.ts`（2.x 侧为编译产物，迁法见下方 **§6**）。 |
+| **「未迁」怎么认** | 按**文件基名**对照：2.x 有 `Foo.js` 且 3.x 无 `Foo.ts` 即视为未迁（合并、拆分、改名以 **`SCRIPT-MIGRATION-LEDGER.md`** 表格与 §6 修订为准，不与基名机械等同）。 |
+| **进度与缺口** | 已迁批次、部分迁、弹窗与子包脚本：**不写在本文档**，统一看 **`SCRIPT-MIGRATION-LEDGER.md`**（§3 / §4 / §6）。 |
+| **新开对话如何接** | @ 本任务书 + `SCRIPT-MIGRATION-LEDGER.md`，说明「**继续主包 `_script` 未迁列表**」即可。 |
+
+**须遵守的约束（仅索引，不重复细则）**
+
+- **Skill / MCP / 禁止手改 `.scene` `.prefab` `.anim` `.meta`**：见上文 **§3**。
+- **`cc` → 3.x API、Tween、UITransform 等**：见下文 **§6**。
+
 ## 5. 工作进度
 
 | 日期 | 事项 | 说明 |
 |------|------|------|
 | 2026-03-31 | 通用资源拷贝至根目录 `assets/` | 自 `2x/assets` 同步**非脚本、非 2.x 序列化**内容到 `E:\gitlab\307\assets`，供 3.8.7 工程导入并**由编辑器重新生成 `.meta`**（未拷贝 2.x 的 `.meta`，避免 UUID/引用与 3.x 冲突）。 |
 | 2026-03-31 | Bundle 配置迁移 | 将 2.x `assets/` 各目录 `.meta` 中的 bundle 信息（`isBundle: true`、`bundleName`、`priority`）按 3.x `userData` 格式写入根目录对应目录 `.meta`，并通过 MCP `cocos_asset reimport` 刷新。详见下方说明。 |
+| 2026-03-31 | 主包脚本迁移（持续） | 已迁/部分迁/弹窗与子包说明见 **`SCRIPT-MIGRATION-LEDGER.md`**。默认下一工作量：**对照 `2x/assets/_script` 与 `assets/_script` 补齐未迁 `.ts`**，见 **§4.1**。 |
 
 **本次拷贝规则（摘要）**
 

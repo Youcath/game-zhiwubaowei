@@ -338,17 +338,22 @@ export class MathUtil {
     return t / e.reduce((acc, x) => acc + x, 0);
   }
 
-  static objectWeightedRandom<T extends Record<string, number>>(t: T[], e = 'Weight'): number {
+  /** 按行上数值字段加权随机下标（配表行常为 `Record<string, unknown>`，如 `SkillCfgRow.Weight`） */
+  static objectWeightedRandom<T extends Record<string, unknown>>(t: T[], e = 'Weight'): number {
     if (!t || t.length === 0) return -1;
     if (t.length === 1) return 0;
     let o = 0;
     t.forEach((row) => {
-      o += row[e]!;
+      const w = Number(row[e]);
+      if (Number.isFinite(w) && w > 0) o += w;
     });
+    if (o <= 0) return -1;
     let i = RandomUtil.randomInt(0, o);
     for (let n = 0; n < t.length; ++n) {
-      if (i < t[n]![e]!) return n;
-      i -= t[n]![e]!;
+      const w = Number(t[n]![e]);
+      const wt = Number.isFinite(w) && w > 0 ? w : 0;
+      if (i < wt) return n;
+      i -= wt;
     }
     return -1;
   }

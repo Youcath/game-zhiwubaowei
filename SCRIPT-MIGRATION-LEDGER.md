@@ -4,6 +4,18 @@
 
 ---
 
+## 0. 续作焦点：主包 `_script` 未迁列表
+
+| 项 | 说明 |
+|----|------|
+| **对照目录** | 源：`2x/assets/_script/*.js`；目标：`assets/_script/*.ts`。 |
+| **未迁（默认理解）** | 2.x 存在某基名 `.js`，且 3.x **无**同名基名 `.ts`。合并、拆分、重命名以本文件 **§3 / §6** 为准，不单靠基名。 |
+| **子包脚本** | `2x/assets/res_*/*/_script` 等**另计**，不在「主包未迁列表」内，需要时单独开附表或批次说明。 |
+| **约束与迁法** | **Skill / MCP、禁止手改场景预制体 meta**：见 **`TASK-migrate-2x-to-cocos-387.md` §3**；**API 对照**：见该文档 **§6**。 |
+| **新开对话** | @ **`TASK-migrate-2x-to-cocos-387.md`** + 本文件，说明「**继续主包 `_script` 未迁列表**」。未迁集合可在仓库根用 **§5** 命令生成，或由助手比对 `glob`。 |
+
+---
+
 ## 1. 台账模板（复制行使用）
 
 在下方「§3 主包 `assets/_script`」或自建章节中，为每个模块维护一行：
@@ -36,10 +48,10 @@
 | 范围 | 数量（约） | 说明 |
 |------|------------|------|
 | `2x/assets/_script/*.js` | **419** | 主包编译产物，迁移主对照集 |
-| `assets/_script/*.ts` | **101** | 当前 3.x 脚本（随提交变化） |
+| `assets/_script/*.ts` | （见 §5 自检） | 表中数字为快照，续作前请用 **§5** 命令重算 |
 | `2x/assets/res_*/*/_script` 等 | **另计** | 各小游戏/子包脚本，需单独台账或附表 |
 
-> 419 与 97 **不是一一对应**（有合并、拆分、新增、不迁项），以表格行为准。
+> 419 与 3.x TS 数量 **不是一一对应**（有合并、拆分、新增、不迁项），以 **§0 / §3 / §6** 与表格行为准。
 
 ---
 
@@ -49,7 +61,7 @@
 
 | 2.x 源（主包） | 3.x 目标 | 状态 | 缺失 / 待办摘要 |
 |----------------|----------|------|-----------------|
-| `_script/BattleDataProxy.js` | `BattleDataProxy.ts` | **部分** | 已增补：`EBattleEvent.RESURGENCE`、`isStartFight`、`endlessCurWave`、`getStageRewardCfg`、`uploadEndlessResult`、`getEndlessRankDatas`、`saveData`（空）、`clearData` 内 `saveBattlePlantData('')` 等，供胜负/复活弹窗与无尽上报。**敌方节点、技能管理器等大量 2.x 字段仍未迁**，补全请整文件对照 `BattleDataProxy.js`。 |
+| `_script/BattleDataProxy.js` | `BattleDataProxy.ts` | **部分** | 已增补：选技能链 `getSkillList`/`selectSkill`/`checkHasSkill`/`getSkillAttribute`、`updateHouseHp`（子集）、`EBattleEvent.SELECT_SKILL`/`SELECT_SKILL_FINISH`/`UPDATE_HOUSE_HP`，及 `SkillDataMgr`。**`updateHouseHp` 负数扣血与失败/复活全链路、`saveData` 持久化战斗数据等仍可能需对照 2.x 补全**。 |
 | `_script/Util.js` | `Util.ts` | **部分** | `showHurt` / `showMiss` / `playHurtEffect` 内为占位（`console.warn`，依赖战斗表现子系统）。 |
 | `_script/CServerItem.js`（及协议相关） | `CServerItem.ts` | **部分** | 注释写明：全量协议与 Socket 待迁；当前满足 LoadScene 等所需的 sessionId / token 等最小字段。 |
 
@@ -68,18 +80,9 @@
 | `uis/popup/ReceiveAwardPopup` | 通常无独立 JS | 同上 |
 | `uis/main/VitBuyPopup` | 通常无独立 JS | 同上 |
 | `uis/main/GoldBuyPopup` | 通常无独立 JS | 同上 |
-| `prefabs/popup/SelectSkillPopup` | `SelectSkillPopup.js` | 待迁 TS |
-| `prefabs/popup/UnlockNewPlantPopup` | `UnlockNewPlantPopup.js` | 待迁 TS |
-| `prefabs/popup/SuperPlantMapPopup` | `SuperPlantMapPopup.js` | 待迁 TS |
-| `prefabs/popup/SelectSuperPlantPopup` | `SelectSuperPlantPopup.js` | 待迁 TS |
-| `prefabs/popup/EnemyDetailsPopup` | `EnemyDetailsPopup.js` | 待迁 TS |
-| `prefabs/popup/CoursePopup` | 视工程而定 | 核对 2.x 是否有独立脚本 |
-| `prefabs/popup/RandomSuperPlantPopup` | `RandomSuperPlantPopup.js` | 待迁 TS |
-| `prefabs/popup/BlockBoxRewardPopup` | `BlockBoxRewardPopup.js` | 待迁 TS |
-| `prefabs/popup/UnlockHybridPlantPopup` | `UnlockHybridPlantPopup.js` | 待迁 TS |
-| `prefabs/popup/VideoManurePopup` | `VideoManurePopup.js` | 待迁 TS |
-| `res_TTSidebar/prefab/TTSidebarPopup` | `res_TTSidebar/_script/TTSidebarPopup.js` | 子包，附表维护 |
-| `res_Report/UIReport` | `res_Report/_script/UIReport.js` | 子包，附表维护 |
+| `prefabs/popup/CoursePopup` | `CourseView.ts`（2.x `CourseView.js`） | **完成**：根节点挂 `CourseView`，编辑器绑定遮罩/对话/手指等 |
+| `res_TTSidebar/prefab/TTSidebarPopup` | `TTSidebarPopup.ts` | **完成**：脚本在主包 `assets/_script`，子包预制体上需挂同名组件并绑定按钮 |
+| `res_Report/UIReport` | `UIReport.ts` | **完成**：同上，子包预制体挂 `UIReport` 并绑定节点 |
 
 > 上表随迁移推进**应删行或改为「完成」并记入 §3 主表**。
 
@@ -95,6 +98,11 @@
 
 # 主包 3.x TS 数量
 (Get-ChildItem -Path "assets\_script" -Filter "*.ts").Count
+
+# 主包「未迁」基名（2.x 有 .js、3.x 无 同名 .ts；排除合并/改名需人工对照 §3）
+$js = Get-ChildItem "2x\assets\_script\*.js" | ForEach-Object { $_.BaseName }
+$ts = Get-ChildItem "assets\_script\*.ts" | ForEach-Object { $_.BaseName }
+Compare-Object $js $ts -PassThru | Where-Object { $_.SideIndicator -eq '<=' } | Select-Object -First 80
 ```
 
 在 `assets/_script` 内搜索待办：
@@ -114,3 +122,8 @@
 | 2026-03-31 | 新增 `EndlessStartPopup` / `EndlessOverPopup` / `EndlessRewardPopup` TS；§4 移除对应「待迁」行；无尽入口需在预制体绑定 `mRankListContent`、`mRankRowPb` |
 | 2026-03-31 | 新增 `SetNikeNamePopup`、`GameLoopRewardPopup` TS；§4 移除对应行；循环奖励列表需在预制体绑定 `mListContent`、`mRowPrefab`；`showSetNikeNamePopup` 回调类型改为 `(name: string) => void` |
 | 2026-03-31 | 新增 `EquipmentFragmentsPopup`、`VideoPhysicalPopup`、`VideoSunshinePopup` TS；§4 移除对应行；`VideoPhysicalPopup` 需在预制体绑定 `mAddNum` |
+| 2026-03-31 | 批量新增：`VideoManurePopup`、`BlockBoxRewardPopup`、`RandomSuperPlantPopup`、`SelectSuperPlantPopup`、`UnlockNewPlantPopup`、`EnemyDetailsPopup`、`SuperPlantMapPopup`、`UnlockHybridPlantPopup`；`BattleDataProxy` 增补 `loadSuperFrameDatas`、`battleView`、`gameCamera`、`superFrameDatas`、`topSuperId` 与 `EBattleEvent.GM_ADD_BALL`、`SELECT_SUPER_PLANT`；§4 移除对应行；`SuperPlantMapPopup` 需绑定 `mListContent`+`mRowPrefab` |
+| 2026-03-31 | 新增 `SelectSkillPopup`、`SelectSkillItem`、`SkillDataMgr`；`BattleDataProxy` 增补选技能与 `SkillDataMgr` 联动；§4 移除 `SelectSkillPopup` 行 |
+| 2026-03-31 | 新增 `CourseView`（新手引导）、`TTSidebarPopup`、`UIReport`；`AudioManager.stopEffectById`；`CourseView` 坐标用 `local.y +=` 替代 `Vec3.add3f`；§4 更新 CoursePopup / 抖音侧边栏 / 上报子包三行说明 |
+| 2026-03-31 | 批量 10：`BgFit`、`ArcProgressBar`、`BagBtnCtl`、`FragmentBase`、`ActiveSuperPlant`、`BoxIceClick`、`SimplyVec2`、`ReportInterface`（AdEventType）、`AnimUtils`、`FlyItemAnimCtrl2`；`BattleDataProxy` 增补 `gameSpeed`（供飞物品动效除速） |
+| 2026-03-31 | 补充 **§0 续作焦点**（主包 `_script` 未迁列表、约束索引、新开对话说明）；`TASK-migrate-2x-to-cocos-387.md` 增加 **§4.1** 与 §5 进度指针 |

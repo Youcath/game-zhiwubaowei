@@ -282,6 +282,17 @@ export class AudioManager {
     });
   }
 
+  /** 按 `playEffect` / `playCourseSound` 返回的数值 id 停止并销毁实例（对应 2.x `cc.audioEngine.stopEffect`） */
+  stopEffectById(id: number): void {
+    if (id == null || id < 0) return;
+    const p = this._effectById.get(id);
+    if (p == null) return;
+    p.source.stop();
+    p.node.destroy();
+    this._effectById.delete(id);
+    delete this._clips[p.key];
+  }
+
   pauseEffect(clipName: string, suffix = ''): void {
     const id = this._clips[clipName + suffix];
     if (id != null) this._effectById.get(id)?.source.pause();
