@@ -316,7 +316,7 @@ export class GameUIManager extends ComponentBase {
     });
   }
 
-  showSetNikeNamePopup(closeFunc?: (() => void) | null): void {
+  showSetNikeNamePopup(closeFunc?: ((name: string) => void) | null): void {
     PopupManager.instance.show({
       bundleName: Bundles.GAME,
       path: 'prefabs/popup/SetNikeNamePopup',

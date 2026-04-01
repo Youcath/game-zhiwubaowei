@@ -54,6 +54,8 @@ export interface ILoadAssetAnyRequest {
 }
 
 export class ResUtil {
+  static loadRemote(req: ILoadRemoteRequest & { success: (asset: Asset) => void }): void;
+  static loadRemote(req: ILoadRemoteRequest & { success?: undefined }): Promise<Asset>;
   static loadRemote(req: ILoadRemoteRequest): Promise<Asset> | void {
     if (req.option == null) req.option = {};
     const { url, option, success, fail, complete } = req;

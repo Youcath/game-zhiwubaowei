@@ -7,6 +7,7 @@ import { Node, Sprite, SpriteFrame } from 'cc';
 import { GameState, WeatherType } from './GameEnum';
 import { DataManager } from './DataManager';
 import { Bundles } from './HomeEnum';
+import { HttpRequest } from './HttpRequest';
 import { ProxyBase } from './ProxyBase';
 import { ResUtil } from './ResUtil';
 import { SqlUtil } from './SqlUtil';
@@ -15,6 +16,16 @@ import { userDataProxy } from './UserDataProxy';
 /** 与 2.x BattleDataProxy.EBattleEvent 一致，供 Home / 教程等派发 */
 export namespace EBattleEvent {
   export const LOSE_COURSE_VIEW = 'LOSE_COURSE_VIEW';
+  export const RESURGENCE = 'RESURGENCE';
+}
+
+/** 关卡奖励表行（与 HomeBattleView / datastagereward 一致） */
+export interface StageRewardCfgRow {
+  id?: number;
+  winReward?: string;
+  wave?: string;
+  stone?: string;
+  [key: string]: unknown;
 }
 
 /** 与 2.x `new BattleData()` / ProxyManager 一致 */
@@ -44,6 +55,12 @@ export class BattleDataProxy extends ProxyBase<BattleData> {
   isGameLose = false;
   isEndless = false;
   weatherType = WeatherType.NONE;
+  /** 是否已进入战斗流程（2.x 同名字段） */
+  isStartFight = false;
+  /** 无尽当前波次（2.x 同名字段） */
+  endlessCurWave = 1;
+  /** 无尽模式剩余选技能次数相关（2.x endlessSelectSkillNum，选技能弹窗用） */
+  endlessSelectSkillNum = 3;
 
   constructor() {
     super(BattleData);
@@ -77,6 +94,83 @@ export class BattleDataProxy extends ProxyBase<BattleData> {
 
   loadBattlePlantData(): string {
     return `${SqlUtil.getLocalUserData('BattlePlantData', '')}`;
+  }
+
+  /** 2.x 为空实现，clearData 会调用 */
+  saveData(_s?: string): void {
+    void _s;
+  }
+
+  /**
+   * 当前章节关卡奖励配置（原 getStageRewardCfg）。
+   */
+  getStageRewardCfg(chapter?: number): StageRewardCfgRow {
+    let t = chapter ?? userDataProxy.userData.curChapter;
+    if (t < 1) t = 1;
+    const map = DataManager.instance.eData.datastagereward as Record<string, StageRewardCfgRow>;
+    let row = map[String(t)];
+    if (row == null) {
+      const keys = Object.keys(map);
+      const last = keys[keys.length - 1];
+      if (last != null) row = map[last]!;
+    }
+    return row ?? {};
+  }
+
+  /**
+   * 上传无尽成绩（原 uploadEndlessResult）。
+   */
+  uploadEndlessResult(cb?: (ok: boolean) => void): void {
+    let key = 'endless';
+    if (DataManager.instance.getIsZbRank()) key = 'endlessZB';
+    const maxW = userDataProxy.userData.endlessData.maxWave;
+    if (this.endlessCurWave > maxW) {
+      userDataProxy.userData.endlessData.maxWave = maxW;
+    }
+    const body = {
+      key,
+      sort: 0,
+      value: this.endlessCurWave,
+    };
+    const payload = JSON.stringify({
+      params: HttpRequest.inst.encryptStr(JSON.stringify(body)),
+    });
+    HttpRequest.inst
+      .request('POST', '/rank/update', payload)
+      .then((e) => {
+        console.log('上传成绩成功:', e);
+        cb?.(true);
+      })
+      .catch((e) => {
+        console.error('上传成绩失败：', e);
+        cb?.(false);
+      });
+  }
+
+  /**
+   * 拉取无尽排行榜（原 getEndlessRankDatas）。
+   */
+  getEndlessRankDatas(cb?: (e: unknown) => void): void {
+    let key = 'endless';
+    if (DataManager.instance.getIsZbRank()) key = 'endlessZB';
+    const payload = JSON.stringify({
+      params: HttpRequest.inst.encryptStr(JSON.stringify({ key })),
+    });
+    HttpRequest.inst
+      .request('POST', '/rank/list', payload)
+      .then((e) => {
+        cb?.(e);
+        const code = (e as { code?: number })?.code;
+        if (code === 200) {
+          const myRank = (e as { data?: { myRank?: { rank?: number } } })?.data?.myRank;
+          if (myRank?.rank != null) {
+            userDataProxy.userData.endlessData.myRank = myRank.rank;
+          }
+        }
+      })
+      .catch((t) => {
+        console.error('获取排行榜失败：', t);
+      });
   }
 
   /**
@@ -133,7 +227,7 @@ export class BattleDataProxy extends ProxyBase<BattleData> {
     return Math.floor(a * r);
   }
 
-  /** Home 进关前清理（全量见 2.x，此处仅重置持久化子集） */
+  /** Home 进关前清理（对齐 2.x clearData 主流程；战斗专有节点数组等仍待全量迁） */
   clearData(): void {
     const b = this.battleData;
     b.ownSkillList = [];
@@ -149,7 +243,12 @@ export class BattleDataProxy extends ProxyBase<BattleData> {
     b.battleChapter = 0;
     b.battleWave = 0;
     b.superPlantId = 0;
+    this.isStartFight = false;
+    this.endlessCurWave = 1;
+    this.endlessSelectSkillNum = 3;
     this.weatherType = WeatherType.NONE;
+    this.saveBattlePlantData('');
+    this.saveData('');
   }
 }
 

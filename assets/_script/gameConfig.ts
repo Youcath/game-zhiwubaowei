@@ -6,6 +6,8 @@ export interface IYzllGameConfig {
   debug?: boolean;
   isZB?: boolean;
   isGM?: boolean;
+  /** 主界面测试入口按钮（原 yzll.gameConfig.mainTestBtn） */
+  mainTestBtn?: boolean;
   /** 微信侧是否按快手链路展示快捷入口等 */
   isKs?: boolean;
   isopenCheck?: boolean;
