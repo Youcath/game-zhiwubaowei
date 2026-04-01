@@ -1,0 +1,132 @@
+
+finger_anim.png
+size: 1199,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GV_finger1_0000
+  rotate: false
+  xy: 832, 2
+  size: 118, 129
+  orig: 121, 133
+  offset: 2, 2
+  index: -1
+GV_finger1_0001
+  rotate: false
+  xy: 960, 121
+  size: 118, 132
+  orig: 122, 136
+  offset: 2, 2
+  index: -1
+GV_finger1_0002
+  rotate: false
+  xy: 1083, 4
+  size: 111, 118
+  orig: 115, 122
+  offset: 2, 2
+  index: -1
+GV_finger1_0003
+  rotate: false
+  xy: 526, 20
+  size: 114, 106
+  orig: 119, 109
+  offset: 3, 2
+  index: -1
+GV_finger1_0004
+  rotate: false
+  xy: 406, 19
+  size: 118, 107
+  orig: 122, 111
+  offset: 2, 2
+  index: -1
+GV_finger1_0005
+  rotate: true
+  xy: 283, 10
+  size: 116, 121
+  orig: 119, 126
+  offset: 2, 2
+  index: -1
+GV_finger1_0006
+  rotate: true
+  xy: 952, 2
+  size: 117, 129
+  orig: 121, 133
+  offset: 2, 2
+  index: -1
+GV_finger1_0007
+  rotate: false
+  xy: 1080, 124
+  size: 117, 129
+  orig: 121, 133
+  offset: 2, 2
+  index: -1
+GV_finger1_0008
+  rotate: true
+  xy: 700, 10
+  size: 118, 129
+  orig: 121, 133
+  offset: 2, 2
+  index: -1
+GV_finger2_0000
+  rotate: true
+  xy: 283, 128
+  size: 125, 137
+  orig: 127, 139
+  offset: 2, 0
+  index: -1
+GV_finger2_0001
+  rotate: true
+  xy: 2, 127
+  size: 126, 140
+  orig: 128, 140
+  offset: 2, 0
+  index: -1
+GV_finger2_0002
+  rotate: true
+  xy: 832, 133
+  size: 120, 126
+  orig: 123, 130
+  offset: 1, 2
+  index: -1
+GV_finger2_0003
+  rotate: false
+  xy: 130, 12
+  size: 123, 113
+  orig: 125, 117
+  offset: 0, 2
+  index: -1
+GV_finger2_0004
+  rotate: false
+  xy: 2, 10
+  size: 126, 115
+  orig: 130, 119
+  offset: 2, 2
+  index: -1
+GV_finger2_0005
+  rotate: true
+  xy: 700, 130
+  size: 123, 130
+  orig: 127, 132
+  offset: 2, 0
+  index: -1
+GV_finger2_0006
+  rotate: true
+  xy: 422, 128
+  size: 125, 137
+  orig: 128, 139
+  offset: 2, 0
+  index: -1
+GV_finger2_0007
+  rotate: true
+  xy: 144, 127
+  size: 126, 137
+  orig: 127, 139
+  offset: 1, 0
+  index: -1
+GV_finger2_0008
+  rotate: true
+  xy: 561, 128
+  size: 125, 137
+  orig: 127, 139
+  offset: 2, 0
+  index: -1

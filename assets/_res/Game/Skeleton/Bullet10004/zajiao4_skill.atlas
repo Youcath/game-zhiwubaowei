@@ -1,0 +1,20 @@
+
+zajiao4_skill.png
+size: 277,100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 96, 136
+  orig: 97, 136
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 140, 2
+  size: 96, 135
+  orig: 97, 136
+  offset: 1, 0
+  index: -1

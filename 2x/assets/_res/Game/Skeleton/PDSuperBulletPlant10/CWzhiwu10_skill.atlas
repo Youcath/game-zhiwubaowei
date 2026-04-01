@@ -1,0 +1,34 @@
+
+CWzhiwu10_skill.png
+size: 227,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: false
+  xy: 167, 9
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 10
+  size: 102, 143
+  orig: 102, 143
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 106, 2
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+zhakai
+  rotate: false
+  xy: 106, 62
+  size: 119, 91
+  orig: 119, 92
+  offset: 0, 1
+  index: -1

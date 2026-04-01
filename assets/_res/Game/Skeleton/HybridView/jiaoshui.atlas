@@ -1,0 +1,27 @@
+
+jiaoshui.png
+size: 210,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuidi
+  rotate: false
+  xy: 164, 36
+  size: 20, 38
+  orig: 20, 39
+  offset: 0, 0
+  index: -1
+shuihu
+  rotate: true
+  xy: 2, 2
+  size: 151, 160
+  orig: 151, 160
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: true
+  xy: 164, 76
+  size: 77, 44
+  orig: 78, 44
+  offset: 1, 0
+  index: -1

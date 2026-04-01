@@ -1,0 +1,124 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PDSuperBulletPlant11",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PDSuperBulletPlant11",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_prefab": {
+      "__id__": 8
+    },
+    "groupIndex": 4,
+    "_id": "8cd81a88-d97a-47b8-90c0-62de6ab27f07"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "zidan4",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 74,
+      "height": 49
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "29d97770-c2ff-4687-ac53-6628f4daf8cd"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "64r7YBfTNFhInjzGeeO6ca",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "6a3f4bTucNOYbYX+V/ODdkX",
+    "mBulletHitPb": {
+      "__uuid__": "5d714e28-0796-4263-8b38-304cf712ec75"
+    },
+    "mImg": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "60b3bld8DJCxYaXYuST4iky",
+    "radius": 15,
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "3d7e6uCAmFKwYsy7vP78Ci9",
+    "_headWidth": 40,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "1a564010-def3-43d2-bdb5-b44298a1cd22"
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

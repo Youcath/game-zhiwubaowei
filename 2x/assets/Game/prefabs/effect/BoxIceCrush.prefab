@@ -1,0 +1,96 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "BoxIceCrush",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BoxIceCrush",
+    "_groupIndex": 3,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "groupIndex": 3,
+    "_id": "59f1b289-bc6c-46f4-9d3d-ac0db2e11fb0"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bingkuaisuilie",
+    "_groupIndex": 3,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 117,
+      "height": 99
+    },
+    "groupIndex": 3
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "defaultSkin": "default",
+    "_preCacheMode": 0,
+    "_animationName": "broken",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
+      }
+    ],
+    "_N$skeletonData": {
+      "__uuid__": "c18b9501-9428-4819-8869-2a1c7cd75797"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "15FwBaF7ZEE7oPMRIuPxfs",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "6a152Dgut9H27vpDTf72z3Q",
+    "mCrushSp": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

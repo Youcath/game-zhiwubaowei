@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ba2efb2d-5529-401d-b2b1-de27927499cd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 45,
+  "height": 805,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_zhalan_you_tianqi4": {
+      "ver": "1.0.6",
+      "uuid": "31edef70-33c2-425b-97ab-dd40099dbee9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ba2efb2d-5529-401d-b2b1-de27927499cd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 45,
+      "height": 805,
+      "rawWidth": 45,
+      "rawHeight": 805,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

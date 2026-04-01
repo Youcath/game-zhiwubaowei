@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d0539ca4-53c0-4e9f-8b39-34258c16c1f2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 74,
+  "height": 49,
+  "platformSettings": {},
+  "subMetas": {
+    "role_skin_1_zidan": {
+      "ver": "1.0.6",
+      "uuid": "72d145ce-1799-4b57-ab7a-2db3898893c9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d0539ca4-53c0-4e9f-8b39-34258c16c1f2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 74,
+      "height": 49,
+      "rawWidth": 74,
+      "rawHeight": 49,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

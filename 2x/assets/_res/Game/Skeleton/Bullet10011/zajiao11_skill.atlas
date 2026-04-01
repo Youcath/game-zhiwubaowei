@@ -1,0 +1,34 @@
+
+zajiao11_skill.png
+size: 259,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tou
+  rotate: true
+  xy: 2, 3
+  size: 124, 136
+  orig: 125, 136
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 140, 62
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 140, 2
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 201, 3
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+CWjihuo.png
+size: 790,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang2
+  rotate: false
+  xy: 638, 184
+  size: 150, 162
+  orig: 150, 195
+  offset: 0, 17
+  index: -1
+pic_taiyanglun_jihuo
+  rotate: false
+  xy: 584, 2
+  size: 171, 180
+  orig: 171, 180
+  offset: 0, 0
+  index: -1
+pic_xingxing
+  rotate: false
+  xy: 584, 220
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: false
+  xy: 2, 3
+  size: 580, 259
+  orig: 580, 259
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 264
+  size: 634, 82
+  orig: 634, 82
+  offset: 0, 0
+  index: -1

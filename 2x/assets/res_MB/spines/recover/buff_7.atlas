@@ -1,0 +1,27 @@
+
+buff_7.png
+size: 362,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangzhu
+  rotate: true
+  xy: 2, 30
+  size: 55, 227
+  orig: 55, 227
+  offset: 0, 0
+  index: -1
+huifu_lizi
+  rotate: false
+  xy: 316, 41
+  size: 44, 44
+  orig: 52, 52
+  offset: 4, 4
+  index: -1
+yuan
+  rotate: false
+  xy: 231, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1

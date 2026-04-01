@@ -1,0 +1,90 @@
+
+zombie_SP1.png
+size: 138,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+benpao_1
+  rotate: false
+  xy: 2, 44
+  size: 61, 34
+  orig: 61, 34
+  offset: 0, 0
+  index: -1
+benpao_2
+  rotate: false
+  xy: 81, 109
+  size: 55, 30
+  orig: 55, 30
+  offset: 0, 0
+  index: -1
+luoxuan1
+  rotate: true
+  xy: 32, 2
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+luoxuan2
+  rotate: true
+  xy: 2, 2
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+nitu
+  rotate: false
+  xy: 2, 113
+  size: 77, 26
+  orig: 77, 26
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 80
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 69, 51
+  size: 43, 62
+  orig: 43, 62
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 77, 19
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 69, 96
+  size: 63, 11
+  orig: 63, 11
+  offset: 0, 0
+  index: -1
+youshou1
+  rotate: false
+  xy: 59, 9
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+yuqi
+  rotate: false
+  xy: 108, 25
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+zuoshou1
+  rotate: true
+  xy: 108, 5
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1

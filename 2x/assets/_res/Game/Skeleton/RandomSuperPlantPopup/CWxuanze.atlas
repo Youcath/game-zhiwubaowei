@@ -1,0 +1,41 @@
+
+CWxuanze.png
+size: 638,257
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daxingxing
+  rotate: false
+  xy: 545, 10
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: false
+  xy: 486, 60
+  size: 150, 195
+  orig: 150, 195
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: true
+  xy: 486, 4
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+zhuanpan1
+  rotate: false
+  xy: 2, 2
+  size: 240, 253
+  orig: 240, 253
+  offset: 0, 0
+  index: -1
+zhuanpan2
+  rotate: false
+  xy: 244, 2
+  size: 240, 253
+  orig: 240, 253
+  offset: 0, 0
+  index: -1

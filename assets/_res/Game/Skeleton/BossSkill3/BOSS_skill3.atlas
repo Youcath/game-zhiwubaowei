@@ -1,0 +1,55 @@
+
+BOSS_skill3.png
+size: 129,75
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shengzi
+  rotate: true
+  xy: 2, 2
+  size: 6, 86
+  orig: 6, 86
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 23
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 57, 27
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 2, 10
+  size: 63, 11
+  orig: 63, 11
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 67, 11
+  size: 14, 27
+  orig: 14, 27
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 106, 41
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1
+zuoshou2
+  rotate: false
+  xy: 106, 19
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1

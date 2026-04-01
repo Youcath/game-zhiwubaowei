@@ -1,0 +1,36 @@
+window.yzll = window.yzll || {};
+window.yzll.gameConfig = {
+  name: "TanqiuClient",
+  gid: "native_tanqiuClient",
+  v: "1.0.1",
+  server: "v2",
+  appid: "tta4b6d20b3b8655b102",
+  companyName: "原子力量",
+  isKs: false,
+  is4399: false,
+  debug: false,
+  isTest: false,
+  gameTestBtn: false,
+  mainTestBtn: true,
+  isGM: false,
+  isZB: false,
+  bUseUma: false,
+  heartLog: false,
+  loginServerLocalAddr: "192.168.1.211",
+  loginServerLineAddr: "42.192.10.208:10011",
+  httpServerLocalPort: "10011",
+  httpServerLinePort: "catWarLoginServer/login/",
+  gameServerPort: "10010",
+  reqNetType: 0,
+  remoteUrl: "",
+  httpUrl: "",
+  httpUrlDebug: "",
+  hotUpdateUrl: "",
+  publicKey: "",
+  publicKeyDebug: "",
+  sdk: {
+    TD_APP_KEY: ""
+  },
+  isopenCheck: false,
+  checkStr: "yuanzililiang"
+};

@@ -1,0 +1,137 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PDBulletPlant12",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BulletPlant12",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": {
+      "__id__": 7
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.7071067811865475,
+        0.7071067811865476,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 90
+    },
+    "groupIndex": 4,
+    "_id": "e5194649-d73f-48e6-9733-ce32c1f41860"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "img",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 82,
+      "height": 39
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "42180c4f-3cb9-477e-bb4c-a90dfd9e450c"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "5azDTz1FtOmZ0OovqPrF0Q",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "772e0+B5cpPm4AwX/eoD0VH",
+    "mBulletHitPb": {
+      "__uuid__": "5d714e28-0796-4263-8b38-304cf712ec75"
+    },
+    "mImg": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "3d7e6uCAmFKwYsy7vP78Ci9",
+    "_length": 30,
+    "_headWidth": 50,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "1a564010-def3-43d2-bdb5-b44298a1cd22"
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

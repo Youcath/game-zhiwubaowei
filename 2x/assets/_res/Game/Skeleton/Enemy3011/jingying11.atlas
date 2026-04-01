@@ -1,0 +1,62 @@
+
+jingying11.png
+size: 109,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pifeng4
+  rotate: true
+  xy: 52, 52
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+pifengqian4
+  rotate: false
+  xy: 2, 11
+  size: 42, 25
+  orig: 42, 25
+  offset: 0, 0
+  index: -1
+shenti4
+  rotate: true
+  xy: 2, 107
+  size: 31, 67
+  orig: 31, 67
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: true
+  xy: 2, 38
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
+wuqi4
+  rotate: false
+  xy: 52, 2
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 2, 94
+  size: 63, 11
+  orig: 63, 11
+  offset: 0, 0
+  index: -1
+yousou4
+  rotate: true
+  xy: 71, 122
+  size: 16, 36
+  orig: 16, 36
+  offset: 0, 0
+  index: -1
+zuoshou4
+  rotate: true
+  xy: 71, 94
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1

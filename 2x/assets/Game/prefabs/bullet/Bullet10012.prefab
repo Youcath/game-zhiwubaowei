@@ -1,0 +1,164 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "Bullet10012",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bullet10012",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_prefab": {
+      "__id__": 10
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 300,
+      "height": 300
+    },
+    "groupIndex": 4,
+    "_id": "8e573cf4-33a9-47e1-b5b3-e1f0d478fa58"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "zaojiao12_skill",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 892.38,
+      "height": 1624
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "defaultSkin": "default",
+    "defaultAnimation": "skill",
+    "_preCacheMode": 0,
+    "_animationName": "skill",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
+      }
+    ],
+    "_N$skeletonData": {
+      "__uuid__": "76ae1e06-70d1-4845-8184-8b9ba02a8e0b"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "62hmOSHCRNqLgE420F13Yq",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "collimation",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": {
+      "__id__": 7
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 410,
+      "height": 410
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "7fd7bddf-4f94-4723-b480-b44ff572f795"
+    },
+    "node": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "4dOAga37pL4Ktq6Kz+dLXF",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "60b3bld8DJCxYaXYuST4iky",
+    "radius": 150,
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "f5f19a0Fm1NTZ6SHzGsFhzC",
+    "mCollimation": {
+      "__id__": 5
+    },
+    "mBulletSp": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

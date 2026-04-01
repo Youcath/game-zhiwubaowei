@@ -1,0 +1,20 @@
+
+jieguotexiao.png
+size: 502,419
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: true
+  xy: 2, 2
+  size: 415, 446
+  orig: 415, 518
+  offset: 0, 36
+  index: -1
+pic_xingxing
+  rotate: false
+  xy: 450, 365
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1

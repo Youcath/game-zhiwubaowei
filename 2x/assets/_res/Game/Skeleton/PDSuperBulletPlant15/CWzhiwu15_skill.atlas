@@ -1,0 +1,27 @@
+
+CWzhiwu15_skill.png
+size: 223,133
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: true
+  xy: 187, 52
+  size: 79, 34
+  orig: 79, 34
+  offset: 0, 0
+  index: -1
+baishengbo
+  rotate: true
+  xy: 2, 2
+  size: 65, 171
+  orig: 65, 171
+  offset: 0, 0
+  index: -1
+shengb
+  rotate: true
+  xy: 2, 69
+  size: 62, 183
+  orig: 62, 183
+  offset: 0, 0
+  index: -1

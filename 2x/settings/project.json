@@ -1,0 +1,43 @@
+{
+  "collision-matrix": [
+    [
+      false
+    ],
+    [
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "group-list": [
+    "default",
+    "wall",
+    "ball",
+    "plant",
+    "game"
+  ],
+  "start-scene": "f9f183d8-9acf-48e9-a3e3-f0e4b5beeb1e",
+  "last-module-event-record-time": 1758387201185,
+  "migrate-history": [
+    "cloud-function"
+  ]
+}

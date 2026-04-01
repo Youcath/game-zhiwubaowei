@@ -1,0 +1,97 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "MapBlockEffect2",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MapBlockEffect2",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "groupIndex": 4,
+    "_id": "917dbebc-7c86-4cc2-9d07-6adfa228dd1b"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "zhuankuaisuilie",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 51.07,
+      "height": 58.23
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "defaultSkin": "default",
+    "defaultAnimation": "broken1",
+    "_preCacheMode": 0,
+    "_animationName": "broken1",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
+      }
+    ],
+    "_N$skeletonData": {
+      "__uuid__": "7a697d73-6f51-4fcf-80dc-ba509f53ccaf"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "afeD+Sc7BOFZ98WL/QFDo3",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "54e84mveeRCaanXGiVHDNTM",
+    "mSpine": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

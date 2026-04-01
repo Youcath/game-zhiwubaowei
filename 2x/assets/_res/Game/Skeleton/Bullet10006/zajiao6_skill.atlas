@@ -1,0 +1,41 @@
+
+zajiao6_skill.png
+size: 354,123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: true
+  xy: 301, 20
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 12
+  size: 109, 144
+  orig: 122, 163
+  offset: 6, 9
+  index: -1
+texiao
+  rotate: false
+  xy: 241, 69
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: true
+  xy: 241, 8
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+zhakai
+  rotate: true
+  xy: 148, 2
+  size: 119, 91
+  orig: 119, 92
+  offset: 0, 1
+  index: -1

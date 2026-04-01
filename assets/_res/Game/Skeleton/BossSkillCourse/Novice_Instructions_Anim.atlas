@@ -1,0 +1,41 @@
+
+Novice_Instructions_Anim.png
+size: 503, 132
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+eff-A
+  rotate: false
+  xy: 443, 72
+  size: 58, 58
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+eff-B
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+finger-1
+  rotate: false
+  xy: 340, 20
+  size: 101, 110
+  orig: 101, 110
+  offset: 0, 0
+  index: -1
+finger-2
+  rotate: false
+  xy: 132, 24
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+finger-3
+  rotate: false
+  xy: 240, 16
+  size: 98, 114
+  orig: 98, 114
+  offset: 0, 0
+  index: -1

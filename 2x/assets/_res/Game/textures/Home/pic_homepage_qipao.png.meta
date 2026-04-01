@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e1a336c1-7c40-4985-9c52-0af98a8134cd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 136,
+  "height": 121,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_homepage_qipao": {
+      "ver": "1.0.6",
+      "uuid": "4cfa2d64-0d34-4671-96df-45418049a96d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e1a336c1-7c40-4985-9c52-0af98a8134cd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 136,
+      "height": 121,
+      "rawWidth": 136,
+      "rawHeight": 121,
+      "borderTop": 41,
+      "borderBottom": 34,
+      "borderLeft": 35,
+      "borderRight": 83,
+      "subMetas": {}
+    }
+  }
+}

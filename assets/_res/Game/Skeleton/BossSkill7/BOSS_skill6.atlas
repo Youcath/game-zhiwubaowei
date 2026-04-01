@@ -1,0 +1,20 @@
+
+BOSS_skill6.png
+size: 132,68
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yanwu1
+  rotate: true
+  xy: 70, 2
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+yanwu2
+  rotate: true
+  xy: 2, 2
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1

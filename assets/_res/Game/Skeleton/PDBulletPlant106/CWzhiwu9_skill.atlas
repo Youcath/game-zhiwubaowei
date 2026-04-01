@@ -1,0 +1,41 @@
+
+CWzhiwu9_skill.png
+size: 162,150
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 43
+  size: 97, 105
+  orig: 97, 105
+  offset: 0, 0
+  index: -1
+huo1
+  rotate: false
+  xy: 2, 9
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+huo2
+  rotate: true
+  xy: 56, 8
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: true
+  xy: 101, 62
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: false
+  xy: 101, 2
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1

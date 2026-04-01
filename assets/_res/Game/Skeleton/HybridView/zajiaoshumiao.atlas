@@ -1,0 +1,160 @@
+
+zajiaoshumiao.png
+size: 1774,476
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: true
+  xy: 1372, 215
+  size: 259, 222
+  orig: 259, 222
+  offset: 0, 0
+  index: -1
+houyou
+  rotate: false
+  xy: 631, 11
+  size: 202, 190
+  orig: 202, 190
+  offset: 0, 0
+  index: -1
+houzuo
+  rotate: false
+  xy: 425, 5
+  size: 204, 183
+  orig: 204, 183
+  offset: 0, 0
+  index: -1
+nitu
+  rotate: true
+  xy: 1686, 9
+  size: 96, 39
+  orig: 96, 39
+  offset: 0, 0
+  index: -1
+qianyou1
+  rotate: false
+  xy: 1596, 346
+  size: 174, 128
+  orig: 175, 128
+  offset: 0, 0
+  index: -1
+qianyou2
+  rotate: false
+  xy: 1588, 9
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+qianyou3
+  rotate: false
+  xy: 1596, 220
+  size: 167, 124
+  orig: 167, 125
+  offset: 0, 1
+  index: -1
+qianyou4
+  rotate: true
+  xy: 116, 8
+  size: 151, 143
+  orig: 151, 143
+  offset: 0, 0
+  index: -1
+qianzuo1
+  rotate: true
+  xy: 1204, 30
+  size: 182, 127
+  orig: 182, 127
+  offset: 0, 0
+  index: -1
+qianzuo2
+  rotate: false
+  xy: 261, 17
+  size: 162, 142
+  orig: 163, 142
+  offset: 1, 0
+  index: -1
+qianzuo3
+  rotate: false
+  xy: 1596, 107
+  size: 115, 111
+  orig: 115, 111
+  offset: 0, 0
+  index: -1
+shugan
+  rotate: true
+  xy: 507, 203
+  size: 271, 479
+  orig: 271, 479
+  offset: 0, 0
+  index: -1
+shugan2
+  rotate: false
+  xy: 2, 161
+  size: 298, 313
+  orig: 310, 313
+  offset: 0, 0
+  index: -1
+shumiaoganzi
+  rotate: false
+  xy: 2, 2
+  size: 24, 157
+  orig: 24, 157
+  offset: 0, 0
+  index: -1
+shumiaoyezi
+  rotate: true
+  xy: 28, 7
+  size: 152, 86
+  orig: 152, 86
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: true
+  xy: 1713, 171
+  size: 47, 59
+  orig: 47, 59
+  offset: 0, 0
+  index: -1
+zhongyou1
+  rotate: true
+  xy: 302, 190
+  size: 284, 203
+  orig: 284, 204
+  offset: 0, 0
+  index: -1
+zhongyou2
+  rotate: true
+  xy: 835, 19
+  size: 182, 205
+  orig: 182, 205
+  offset: 0, 0
+  index: -1
+zhongzuo1
+  rotate: true
+  xy: 988, 207
+  size: 267, 214
+  orig: 267, 214
+  offset: 0, 0
+  index: -1
+zhongzuo2
+  rotate: false
+  xy: 1042, 3
+  size: 160, 202
+  orig: 160, 202
+  offset: 0, 0
+  index: -1
+zhongzuo3
+  rotate: true
+  xy: 1204, 214
+  size: 260, 166
+  orig: 261, 166
+  offset: 0, 0
+  index: -1
+zhongzuo4
+  rotate: false
+  xy: 1333, 37
+  size: 253, 175
+  orig: 253, 175
+  offset: 0, 0
+  index: -1

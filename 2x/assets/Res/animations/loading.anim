@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "loading",
+  "_duration": 1,
+  "speed": 0.5,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Label": {
+        "string": [
+          {
+            "frame": 0,
+            "value": "..."
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": ".."
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": "."
+          },
+          {
+            "frame": 1,
+            "value": "."
+          }
+        ]
+      }
+    }
+  }
+}

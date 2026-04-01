@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03465db8-7111-4eef-ad46-2a5cf06e295a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 131,
+  "height": 80,
+  "platformSettings": {},
+  "subMetas": {
+    "BOSS_skill2_daodan": {
+      "ver": "1.0.6",
+      "uuid": "3e6645a8-be0c-4a70-ad87-bbbd5d0f878c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03465db8-7111-4eef-ad46-2a5cf06e295a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 131,
+      "height": 80,
+      "rawWidth": 131,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

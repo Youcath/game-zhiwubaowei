@@ -1,0 +1,106 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "SuperBulletPlant9",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SuperBulletPlant9",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 80
+    },
+    "groupIndex": 4,
+    "_id": "37a8ec37-dc4d-4e9b-97d9-c59533c5d65f"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "spine",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 146.25,
+      "height": 199.89
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "defaultSkin": "default",
+    "defaultAnimation": "roll",
+    "_preCacheMode": 0,
+    "_animationName": "roll",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
+      }
+    ],
+    "_N$skeletonData": {
+      "__uuid__": "dc29c59d-fb3a-48b8-875f-3f547e7accba"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "f1JUUlMAVHNKmRg72kgmat",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "643c3BXUxlHR6cuqXMXxrKF",
+    "mIsSpAni": true,
+    "mBulletBoomPb": {
+      "__uuid__": "87ab1792-ef3f-41c9-a4a1-837ef73c11e4"
+    },
+    "mSpAni": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

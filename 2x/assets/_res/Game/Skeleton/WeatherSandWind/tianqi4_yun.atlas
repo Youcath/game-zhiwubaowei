@@ -1,0 +1,13 @@
+
+tianqi4_yun.png
+size: 445,258
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun
+  rotate: false
+  xy: 2, 2
+  size: 441, 254
+  orig: 442, 254
+  offset: 1, 0
+  index: -1

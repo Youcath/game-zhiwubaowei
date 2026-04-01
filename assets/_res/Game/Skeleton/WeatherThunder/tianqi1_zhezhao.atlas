@@ -1,0 +1,20 @@
+
+tianqi1_zhezhao.png
+size: 560,233
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanbai
+  rotate: false
+  xy: 512, 163
+  size: 46, 68
+  orig: 46, 68
+  offset: 0, 0
+  index: -1
+wuyun
+  rotate: false
+  xy: 2, 2
+  size: 508, 229
+  orig: 508, 229
+  offset: 0, 0
+  index: -1

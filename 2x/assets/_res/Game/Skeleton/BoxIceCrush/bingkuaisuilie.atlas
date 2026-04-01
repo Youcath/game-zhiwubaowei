@@ -1,0 +1,27 @@
+
+bingkuaisuilie.png
+size: 154,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingcha
+  rotate: false
+  xy: 116, 34
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+daxuehua
+  rotate: false
+  xy: 116, 59
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 2
+  size: 112, 93
+  orig: 117, 99
+  offset: 2, 3
+  index: -1

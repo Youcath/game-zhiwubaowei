@@ -1,0 +1,34 @@
+
+zhiwu15_zidanskill.png
+size: 144,119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shengbo
+  rotate: false
+  xy: 2, 2
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+skr  
+  rotate: true
+  xy: 119, 79
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+ye 
+  rotate: true
+  xy: 119, 14
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+yo
+  rotate: true
+  xy: 119, 46
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1

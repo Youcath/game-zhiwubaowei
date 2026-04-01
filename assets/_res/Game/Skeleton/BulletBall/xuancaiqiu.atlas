@@ -1,0 +1,27 @@
+
+xuancaiqiu.png
+size: 202,84
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang
+  rotate: false
+  xy: 160, 42
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 160, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+xuancai
+  rotate: true
+  xy: 2, 10
+  size: 72, 156
+  orig: 72, 156
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+zhiwuhuode.png
+size: 1247,289
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang2
+  rotate: false
+  xy: 588, 125
+  size: 150, 162
+  orig: 150, 195
+  offset: 0, 17
+  index: -1
+pic_plant1
+  rotate: true
+  xy: 551, 8
+  size: 96, 116
+  orig: 96, 116
+  offset: 0, 0
+  index: -1
+pic_plant10
+  rotate: false
+  xy: 255, 70
+  size: 63, 217
+  orig: 63, 217
+  offset: 0, 0
+  index: -1
+pic_plant11
+  rotate: true
+  xy: 99, 29
+  size: 258, 154
+  orig: 258, 154
+  offset: 0, 0
+  index: -1
+pic_plant13
+  rotate: false
+  xy: 1110, 12
+  size: 87, 91
+  orig: 87, 91
+  offset: 0, 0
+  index: -1
+pic_plant14
+  rotate: true
+  xy: 669, 6
+  size: 117, 86
+  orig: 117, 86
+  offset: 0, 0
+  index: -1
+pic_plant15
+  rotate: false
+  xy: 320, 5
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+pic_plant2
+  rotate: false
+  xy: 407, 7
+  size: 142, 96
+  orig: 142, 96
+  offset: 0, 0
+  index: -1
+pic_plant3
+  rotate: false
+  xy: 1033, 71
+  size: 75, 84
+  orig: 75, 84
+  offset: 0, 0
+  index: -1
+pic_plant4
+  rotate: false
+  xy: 879, 136
+  size: 142, 151
+  orig: 142, 151
+  offset: 0, 0
+  index: -1
+pic_plant5
+  rotate: true
+  xy: 740, 134
+  size: 153, 137
+  orig: 153, 137
+  offset: 0, 0
+  index: -1
+pic_plant6
+  rotate: true
+  xy: 2, 10
+  size: 277, 95
+  orig: 277, 95
+  offset: 0, 0
+  index: -1
+pic_plant7
+  rotate: true
+  xy: 452, 106
+  size: 181, 134
+  orig: 181, 134
+  offset: 0, 0
+  index: -1
+pic_plant8
+  rotate: true
+  xy: 320, 105
+  size: 182, 130
+  orig: 182, 130
+  offset: 0, 0
+  index: -1
+pic_xingxing
+  rotate: false
+  xy: 255, 26
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_blue
+  rotate: false
+  xy: 757, 2
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_blue2
+  rotate: false
+  xy: 849, 2
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_green
+  rotate: false
+  xy: 941, 4
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_green2
+  rotate: false
+  xy: 1023, 157
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_purple
+  rotate: true
+  xy: 1115, 197
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+pic_zhiwukuang_purple2
+  rotate: true
+  xy: 1115, 105
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1

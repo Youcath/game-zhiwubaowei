@@ -1,0 +1,41 @@
+
+zidan10_liekai.png
+size: 158,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duwu1
+  rotate: false
+  xy: 2, 2
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+duwu2
+  rotate: true
+  xy: 68, 4
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+zidan10_1
+  rotate: true
+  xy: 130, 45
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+zidan10_2
+  rotate: false
+  xy: 130, 24
+  size: 21, 19
+  orig: 21, 25
+  offset: 0, 6
+  index: -1
+zidan10_3
+  rotate: false
+  xy: 130, 5
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1

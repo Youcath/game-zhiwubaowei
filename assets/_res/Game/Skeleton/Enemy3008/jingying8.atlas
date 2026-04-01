@@ -1,0 +1,55 @@
+
+jingying8.png
+size: 198,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti1
+  rotate: false
+  xy: 2, 2
+  size: 62, 74
+  orig: 65, 81
+  offset: 0, 5
+  index: -1
+tou1
+  rotate: false
+  xy: 66, 23
+  size: 67, 53
+  orig: 69, 68
+  offset: 0, 11
+  index: -1
+weiba
+  rotate: false
+  xy: 160, 28
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 66, 2
+  size: 91, 19
+  orig: 91, 19
+  offset: 0, 0
+  index: -1
+youshou1
+  rotate: false
+  xy: 135, 32
+  size: 23, 44
+  orig: 30, 53
+  offset: 4, 4
+  index: -1
+youtui1
+  rotate: false
+  xy: 160, 47
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+zuotui1
+  rotate: false
+  xy: 181, 45
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1

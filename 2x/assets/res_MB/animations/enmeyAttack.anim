@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "enmeyAttack",
+  "_duration": 0.3333333333333333,
+  "curveData": {
+    "paths": {
+      "zhuahen1": {
+        "comps": {
+          "cc.Sprite": {
+            "fillRange": [
+              {
+                "frame": 0,
+                "value": 0,
+                "curve": "cubicIn"
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 1
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

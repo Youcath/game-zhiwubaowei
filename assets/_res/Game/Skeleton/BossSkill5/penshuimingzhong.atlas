@@ -1,0 +1,27 @@
+
+penshuimingzhong.png
+size: 250,85
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 120, 2
+  size: 81, 108
+  orig: 85, 108
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 3
+  size: 80, 116
+  orig: 81, 116
+  offset: 1, 0
+  index: -1
+shuizhu
+  rotate: false
+  xy: 230, 65
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1

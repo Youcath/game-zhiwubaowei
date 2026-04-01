@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dceac039-dbb7-483b-939c-3ba5ef3c53fa",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 179,
+  "height": 155,
+  "platformSettings": {},
+  "subMetas": {
+    "zidan12_zhakai_12": {
+      "ver": "1.0.6",
+      "uuid": "9d604385-6b29-41bd-88d3-c8fa16311e1a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dceac039-dbb7-483b-939c-3ba5ef3c53fa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -3.5,
+      "trimX": 18,
+      "trimY": 26,
+      "width": 153,
+      "height": 110,
+      "rawWidth": 179,
+      "rawHeight": 155,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

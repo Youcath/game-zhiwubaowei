@@ -1,0 +1,41 @@
+
+tianqi2_xiayu.png
+size: 536,233
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuidi
+  rotate: false
+  xy: 512, 126
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: true
+  xy: 512, 161
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+shuitan
+  rotate: true
+  xy: 512, 195
+  size: 36, 19
+  orig: 36, 20
+  offset: 0, 0
+  index: -1
+wuyun
+  rotate: false
+  xy: 2, 2
+  size: 508, 229
+  orig: 508, 229
+  offset: 0, 0
+  index: -1
+yudi
+  rotate: false
+  xy: 512, 140
+  size: 11, 19
+  orig: 15, 25
+  offset: 2, 3
+  index: -1

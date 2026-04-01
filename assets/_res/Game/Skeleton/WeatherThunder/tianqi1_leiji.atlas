@@ -1,0 +1,34 @@
+
+tianqi1_leiji.png
+size: 384,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianliu
+  rotate: false
+  xy: 2, 2
+  size: 136, 68
+  orig: 137, 68
+  offset: 1, 0
+  index: -1
+shandian
+  rotate: true
+  xy: 2, 72
+  size: 20, 380
+  orig: 20, 380
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: false
+  xy: 140, 18
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: false
+  xy: 228, 25
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1

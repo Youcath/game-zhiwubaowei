@@ -1,0 +1,48 @@
+
+BOSS_skill5.png
+size: 214,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 22, 242
+  size: 48, 56
+  orig: 49, 56
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 80, 236
+  size: 54, 60
+  orig: 55, 60
+  offset: 0, 0
+  index: -1
+che
+  rotate: true
+  xy: 2, 2
+  size: 117, 210
+  orig: 117, 210
+  offset: 0, 0
+  index: -1
+shuizhu
+  rotate: false
+  xy: 2, 272
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 142, 232
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 2, 121
+  size: 109, 199
+  orig: 109, 199
+  offset: 0, 0
+  index: -1

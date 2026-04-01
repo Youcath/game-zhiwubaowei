@@ -1,0 +1,55 @@
+
+tianqi4_longjuanfeng.png
+size: 271,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fengquan
+  rotate: false
+  xy: 2, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+sha1
+  rotate: false
+  xy: 129, 35
+  size: 115, 43
+  orig: 115, 44
+  offset: 0, 1
+  index: -1
+sha2
+  rotate: false
+  xy: 129, 6
+  size: 82, 27
+  orig: 82, 28
+  offset: 0, 0
+  index: -1
+sha3
+  rotate: false
+  xy: 129, 80
+  size: 117, 47
+  orig: 118, 49
+  offset: 0, 1
+  index: -1
+shitou1
+  rotate: false
+  xy: 248, 106
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+shitou2
+  rotate: false
+  xy: 248, 83
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: false
+  xy: 213, 3
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1

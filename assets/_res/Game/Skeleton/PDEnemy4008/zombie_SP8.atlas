@@ -1,0 +1,104 @@
+
+zombie_SP8.png
+size: 204,821
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B0
+  rotate: false
+  xy: 2, 281
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B1
+  rotate: false
+  xy: 100, 281
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B2
+  rotate: false
+  xy: 2, 188
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B3
+  rotate: false
+  xy: 100, 188
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B4
+  rotate: false
+  xy: 2, 95
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B5
+  rotate: false
+  xy: 100, 95
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+B6
+  rotate: false
+  xy: 2, 2
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+chuan
+  rotate: false
+  xy: 2, 757
+  size: 200, 62
+  orig: 200, 62
+  offset: 0, 0
+  index: -1
+chuandi
+  rotate: false
+  xy: 2, 460
+  size: 192, 30
+  orig: 192, 30
+  offset: 0, 0
+  index: -1
+dun
+  rotate: false
+  xy: 153, 378
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+jiangshitou
+  rotate: false
+  xy: 153, 414
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+qiqiu
+  rotate: true
+  xy: 2, 492
+  size: 263, 194
+  orig: 263, 194
+  offset: 0, 0
+  index: -1
+shengzi
+  rotate: false
+  xy: 2, 374
+  size: 149, 84
+  orig: 149, 84
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 100, 40
+  size: 67, 53
+  orig: 67, 53
+  offset: 0, 0
+  index: -1

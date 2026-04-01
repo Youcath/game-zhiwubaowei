@@ -1,0 +1,41 @@
+
+zidan6_liekai.png
+size: 201,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nitu
+  rotate: true
+  xy: 101, 48
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+suipian
+  rotate: false
+  xy: 90, 26
+  size: 9, 48
+  orig: 9, 48
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: false
+  xy: 2, 22
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: true
+  xy: 141, 15
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+zidan6
+  rotate: false
+  xy: 2, 2
+  size: 137, 18
+  orig: 137, 18
+  offset: 0, 0
+  index: -1

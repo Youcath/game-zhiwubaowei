@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e1e9b251-6d54-41ed-b698-cc3c3a3d6ec9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 73,
+  "height": 42,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_植物": {
+      "ver": "1.0.6",
+      "uuid": "e40bae66-a5ee-41a2-a4d3-7eca6e059f17",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e1e9b251-6d54-41ed-b698-cc3c3a3d6ec9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 73,
+      "height": 42,
+      "rawWidth": 73,
+      "rawHeight": 42,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

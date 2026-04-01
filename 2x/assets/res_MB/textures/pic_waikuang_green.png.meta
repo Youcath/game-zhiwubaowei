@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e2b347d9-4d10-4734-b5e1-934ed569cb03",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 70,
+  "height": 67,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_waikuang_green": {
+      "ver": "1.0.6",
+      "uuid": "50e60dd8-1d87-4a64-94fc-7b2ad1a55a31",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e2b347d9-4d10-4734-b5e1-934ed569cb03",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 67,
+      "rawWidth": 70,
+      "rawHeight": 67,
+      "borderTop": 31,
+      "borderBottom": 22,
+      "borderLeft": 19,
+      "borderRight": 44,
+      "subMetas": {}
+    }
+  }
+}

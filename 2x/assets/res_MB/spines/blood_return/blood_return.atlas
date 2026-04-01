@@ -1,0 +1,41 @@
+
+blood_return.png
+size: 160,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanban1
+  rotate: false
+  xy: 66, 22
+  size: 52, 52
+  orig: 65, 65
+  offset: 7, 6
+  index: -1
+guangzhi
+  rotate: false
+  xy: 2, 6
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+jia_a1
+  rotate: false
+  xy: 120, 36
+  size: 38, 38
+  orig: 39, 39
+  offset: 0, 1
+  index: -1
+lizi
+  rotate: false
+  xy: 120, 2
+  size: 32, 32
+  orig: 42, 42
+  offset: 5, 5
+  index: -1
+xiant
+  rotate: false
+  xy: 66, 12
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1

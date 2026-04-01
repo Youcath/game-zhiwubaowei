@@ -1,0 +1,55 @@
+
+BOSS9.png
+size: 217,72
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+peishi
+  rotate: false
+  xy: 179, 40
+  size: 36, 30
+  orig: 36, 30
+  offset: 0, 0
+  index: -1
+shenti4
+  rotate: false
+  xy: 111, 2
+  size: 32, 68
+  orig: 32, 68
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: false
+  xy: 2, 5
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+wuqi4
+  rotate: false
+  xy: 62, 4
+  size: 47, 66
+  orig: 47, 66
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 145, 5
+  size: 63, 11
+  orig: 63, 11
+  offset: 0, 0
+  index: -1
+youshou4
+  rotate: false
+  xy: 145, 18
+  size: 32, 52
+  orig: 32, 52
+  offset: 0, 0
+  index: -1
+zuoshou4
+  rotate: true
+  xy: 179, 20
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1

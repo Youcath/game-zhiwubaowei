@@ -1,0 +1,62 @@
+
+jingying9.png
+size: 197,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 90, 29
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: false
+  xy: 2, 27
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+tou
+  rotate: false
+  xy: 157, 35
+  size: 38, 44
+  orig: 38, 44
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 71, 6
+  size: 91, 19
+  orig: 91, 19
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 126, 30
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 37, 5
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 2, 2
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+zuqiu
+  rotate: false
+  xy: 164, 9
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1

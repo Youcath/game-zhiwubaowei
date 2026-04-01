@@ -1,0 +1,97 @@
+
+zajiao3_skill.png
+size: 1086,156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B0
+  rotate: false
+  xy: 829, 35
+  size: 99, 119
+  orig: 160, 153
+  offset: 23, 22
+  index: -1
+B1
+  rotate: true
+  xy: 703, 26
+  size: 128, 124
+  orig: 160, 153
+  offset: 16, 16
+  index: -1
+B2
+  rotate: true
+  xy: 298, 6
+  size: 148, 140
+  orig: 160, 153
+  offset: 7, 6
+  index: -1
+B3
+  rotate: true
+  xy: 152, 2
+  size: 152, 144
+  orig: 160, 153
+  offset: 4, 5
+  index: -1
+B4
+  rotate: false
+  xy: 2, 2
+  size: 148, 152
+  orig: 160, 153
+  offset: 8, 0
+  index: -1
+B5
+  rotate: true
+  xy: 571, 14
+  size: 140, 130
+  orig: 160, 153
+  offset: 9, 11
+  index: -1
+B6
+  rotate: true
+  xy: 440, 11
+  size: 143, 129
+  orig: 160, 153
+  offset: 8, 13
+  index: -1
+nitu
+  rotate: false
+  xy: 703, 11
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+suipian
+  rotate: true
+  xy: 571, 3
+  size: 9, 48
+  orig: 9, 48
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: true
+  xy: 983, 68
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: true
+  xy: 983, 7
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yezi
+  rotate: true
+  xy: 1037, 96
+  size: 58, 47
+  orig: 58, 47
+  offset: 0, 0
+  index: -1
+zidan6
+  rotate: true
+  xy: 930, 22
+  size: 132, 51
+  orig: 132, 51
+  offset: 0, 0
+  index: -1

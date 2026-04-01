@@ -1,0 +1,76 @@
+
+jingying7.png
+size: 132,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pingzi4
+  rotate: false
+  xy: 23, 74
+  size: 37, 68
+  orig: 65, 73
+  offset: 15, 3
+  index: -1
+shenti4
+  rotate: true
+  xy: 2, 6
+  size: 43, 75
+  orig: 46, 81
+  offset: 1, 4
+  index: -1
+tou4
+  rotate: true
+  xy: 79, 2
+  size: 49, 50
+  orig: 50, 54
+  offset: 0, 4
+  index: -1
+wuqi4
+  rotate: false
+  xy: 62, 102
+  size: 39, 40
+  orig: 57, 49
+  offset: 2, 4
+  index: -1
+yingzi
+  rotate: true
+  xy: 2, 51
+  size: 91, 19
+  orig: 91, 19
+  offset: 0, 0
+  index: -1
+youshou1
+  rotate: true
+  xy: 52, 53
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+youshou2
+  rotate: true
+  xy: 62, 81
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+youshou4
+  rotate: false
+  xy: 103, 105
+  size: 27, 37
+  orig: 39, 54
+  offset: 1, 10
+  index: -1
+youshuo3
+  rotate: true
+  xy: 88, 60
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+zuoshou4
+  rotate: false
+  xy: 23, 51
+  size: 27, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1

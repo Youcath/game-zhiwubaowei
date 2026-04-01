@@ -1,0 +1,97 @@
+
+CWzhiwu6_skill.png
+size: 1116,84
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_000
+  rotate: false
+  xy: 296, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_001
+  rotate: false
+  xy: 378, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_002
+  rotate: false
+  xy: 460, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_003
+  rotate: false
+  xy: 542, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_004
+  rotate: false
+  xy: 624, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_005
+  rotate: false
+  xy: 706, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_006
+  rotate: false
+  xy: 788, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_007
+  rotate: false
+  xy: 870, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_008
+  rotate: false
+  xy: 952, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_009
+  rotate: false
+  xy: 1034, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hit_010
+  rotate: false
+  xy: 214, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+lajiao
+  rotate: true
+  xy: 2, 13
+  size: 69, 104
+  orig: 69, 104
+  offset: 0, 0
+  index: -1
+lajiao_hong
+  rotate: true
+  xy: 108, 13
+  size: 69, 104
+  orig: 69, 104
+  offset: 0, 0
+  index: -1

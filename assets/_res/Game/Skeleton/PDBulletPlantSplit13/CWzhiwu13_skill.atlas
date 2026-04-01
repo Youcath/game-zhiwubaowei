@@ -1,0 +1,41 @@
+
+CWzhiwu13_skill.png
+size: 183,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shandian
+  rotate: true
+  xy: 2, 2
+  size: 32, 103
+  orig: 32, 103
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: true
+  xy: 127, 7
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+wuyun
+  rotate: false
+  xy: 2, 73
+  size: 118, 80
+  orig: 118, 80
+  offset: 0, 0
+  index: -1
+wuyunguang
+  rotate: false
+  xy: 2, 36
+  size: 123, 35
+  orig: 124, 36
+  offset: 1, 0
+  index: -1
+yan
+  rotate: false
+  xy: 122, 95
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1

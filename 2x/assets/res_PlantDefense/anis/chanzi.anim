@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "chanzi",
+  "_duration": 1.15,
+  "speed": 0.5,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": -45
+        },
+        {
+          "frame": 0.25,
+          "value": -15
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": -45
+        },
+        {
+          "frame": 0.5,
+          "value": -15
+        },
+        {
+          "frame": 0.55,
+          "value": -45
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": -45
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -45
+        },
+        {
+          "frame": 0.75,
+          "value": -15
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": -45
+        },
+        {
+          "frame": 1.15,
+          "value": 0
+        }
+      ]
+    }
+  }
+}

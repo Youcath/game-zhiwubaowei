@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3e865622-63d4-4d98-a03b-41e6de1f9da2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 708,
+  "height": 875,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_ditu_tianqi4": {
+      "ver": "1.0.6",
+      "uuid": "2ac89c80-0f1b-482c-ad67-eca6d600b57a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3e865622-63d4-4d98-a03b-41e6de1f9da2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 707,
+      "height": 873,
+      "rawWidth": 708,
+      "rawHeight": 875,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,90 @@
+
+zombie_SP3.png
+size: 275,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 188, 29
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+tanhuang1
+  rotate: false
+  xy: 63, 2
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+tanhuang2
+  rotate: false
+  xy: 99, 5
+  size: 15, 5
+  orig: 15, 5
+  offset: 0, 0
+  index: -1
+tanhuang3
+  rotate: false
+  xy: 78, 4
+  size: 19, 6
+  orig: 19, 6
+  offset: 0, 0
+  index: -1
+tiaotiao1
+  rotate: true
+  xy: 138, 19
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1
+tiaotiao2
+  rotate: true
+  xy: 113, 16
+  size: 44, 23
+  orig: 44, 23
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 63, 12
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 2, 2
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 176, 6
+  size: 91, 19
+  orig: 91, 19
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 170, 27
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+zhuqingting
+  rotate: false
+  xy: 138, 2
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 255, 33
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1

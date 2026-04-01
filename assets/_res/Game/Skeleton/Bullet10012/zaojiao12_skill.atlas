@@ -1,0 +1,83 @@
+
+zaojiao12_skill.png
+size: 1031,354
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 399, 158
+  size: 156, 194
+  orig: 159, 201
+  offset: 1, 6
+  index: -1
+_0000_1
+  rotate: true
+  xy: 877, 66
+  size: 136, 140
+  orig: 199, 188
+  offset: 41, 26
+  index: -1
+_0001_2
+  rotate: true
+  xy: 877, 204
+  size: 148, 152
+  orig: 199, 188
+  offset: 33, 18
+  index: -1
+_0002_3
+  rotate: true
+  xy: 399, 4
+  size: 152, 156
+  orig: 199, 188
+  offset: 36, 14
+  index: -1
+_0003_4
+  rotate: false
+  xy: 717, 18
+  size: 156, 164
+  orig: 199, 188
+  offset: 33, 13
+  index: -1
+_0004_5
+  rotate: false
+  xy: 719, 188
+  size: 156, 164
+  orig: 199, 188
+  offset: 33, 13
+  index: -1
+_0005_6
+  rotate: false
+  xy: 557, 184
+  size: 160, 168
+  orig: 199, 188
+  offset: 31, 9
+  index: -1
+_0006_7
+  rotate: false
+  xy: 557, 14
+  size: 158, 168
+  orig: 199, 188
+  offset: 32, 8
+  index: -1
+jingtou
+  rotate: false
+  xy: 2, 2
+  size: 395, 350
+  orig: 395, 350
+  offset: 0, 0
+  index: -1
+suipian
+  rotate: false
+  xy: 963, 22
+  size: 29, 42
+  orig: 29, 42
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: false
+  xy: 875, 12
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1

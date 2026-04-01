@@ -1,0 +1,90 @@
+
+kuanghuanshike.png
+size: 424,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BGtiao
+  rotate: false
+  xy: 2, 80
+  size: 177, 60
+  orig: 177, 60
+  offset: 0, 0
+  index: -1
+daimao
+  rotate: true
+  xy: 377, 42
+  size: 49, 39
+  orig: 49, 39
+  offset: 0, 0
+  index: -1
+daxingxing
+  rotate: false
+  xy: 326, 92
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 255, 2
+  size: 68, 81
+  orig: 68, 81
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 181, 85
+  size: 55, 80
+  orig: 55, 80
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: false
+  xy: 2, 14
+  size: 135, 21
+  orig: 135, 21
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 169, 8
+  size: 84, 70
+  orig: 84, 70
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 37
+  size: 165, 41
+  orig: 165, 41
+  offset: 0, 0
+  index: -1
+xiaoxingxing
+  rotate: false
+  xy: 375, 93
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+youyezi
+  rotate: false
+  xy: 325, 29
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+zhipian
+  rotate: true
+  xy: 139, 7
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+zuoyezi
+  rotate: false
+  xy: 263, 90
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+BOSS1.png
+size: 159,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti4
+  rotate: false
+  xy: 23, 58
+  size: 68, 84
+  orig: 68, 84
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: true
+  xy: 39, 6
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+wuqi4
+  rotate: false
+  xy: 93, 68
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+yaodai4
+  rotate: true
+  xy: 2, 2
+  size: 47, 35
+  orig: 47, 35
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 2, 51
+  size: 91, 19
+  orig: 91, 19
+  offset: 0, 0
+  index: -1
+youshou4
+  rotate: false
+  xy: 89, 12
+  size: 21, 44
+  orig: 21, 44
+  offset: 0, 0
+  index: -1
+youtui4
+  rotate: false
+  xy: 133, 12
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+zuoshou4
+  rotate: true
+  xy: 112, 43
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+zuotui4
+  rotate: false
+  xy: 112, 10
+  size: 19, 31
+  orig: 23, 31
+  offset: 4, 0
+  index: -1

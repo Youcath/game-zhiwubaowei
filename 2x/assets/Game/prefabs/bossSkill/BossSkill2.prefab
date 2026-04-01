@@ -1,0 +1,151 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "BossSkill2",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BossSkill2",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 7
+      }
+    ],
+    "_prefab": {
+      "__id__": 8
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 150,
+      "height": 90
+    },
+    "groupIndex": 4,
+    "_id": "088d2ead-50b9-4e2b-94b2-e32c651c1837"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BOSS_skill2_daodan",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 131,
+      "height": 80
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "3e6645a8-be0c-4a70-ad87-bbbd5d0f878c"
+    },
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "f3oDLWDfBGEYFKOvt5RRtM",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "tail",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_prefab": {
+      "__id__": 6
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -85,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "achohLWwVJh5WlilL+ASj/",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "d2cffaTUldHA5HyVRXVPxWH",
+    "mSmokePb": {
+      "__uuid__": "d984491e-11de-4683-8b95-5986da4b96fe"
+    },
+    "mMarkPb": {
+      "__uuid__": "0af6deac-3638-41ef-8956-0257adb99892"
+    },
+    "mBoomPb": {
+      "__uuid__": "87ab1792-ef3f-41c9-a4a1-837ef73c11e4"
+    },
+    "mBoomSpr": {
+      "__id__": 2
+    },
+    "mTail": {
+      "__id__": 5
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

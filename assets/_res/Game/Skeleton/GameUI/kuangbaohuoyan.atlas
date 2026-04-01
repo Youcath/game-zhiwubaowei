@@ -1,0 +1,34 @@
+
+kuangbaohuoyan.png
+size: 265,58
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 206, 2
+  size: 54, 57
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 72, 2
+  size: 54, 67
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2, 2
+  size: 54, 68
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 141, 3
+  size: 53, 63
+  orig: 54, 68
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+BOSS_skill1.png
+size: 251,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingcha
+  rotate: true
+  xy: 226, 15
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+bingzhu
+  rotate: true
+  xy: 116, 9
+  size: 86, 70
+  orig: 86, 70
+  offset: 0, 0
+  index: -1
+daxuehua
+  rotate: false
+  xy: 188, 6
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 2
+  size: 112, 93
+  orig: 117, 99
+  offset: 2, 3
+  index: -1
+xiaoxuehua
+  rotate: false
+  xy: 188, 44
+  size: 53, 51
+  orig: 57, 54
+  offset: 2, 1
+  index: -1

@@ -1,0 +1,118 @@
+
+shiwu6_ranshao.png
+size: 878,218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo00
+  rotate: false
+  xy: 108, 96
+  size: 104, 120
+  orig: 128, 128
+  offset: 12, 0
+  index: -1
+huo01
+  rotate: false
+  xy: 2, 92
+  size: 104, 124
+  orig: 128, 128
+  offset: 12, 0
+  index: -1
+huo02
+  rotate: true
+  xy: 340, 116
+  size: 100, 116
+  orig: 128, 128
+  offset: 16, 12
+  index: -1
+huo03
+  rotate: true
+  xy: 352, 13
+  size: 101, 116
+  orig: 128, 128
+  offset: 16, 12
+  index: -1
+huo04
+  rotate: true
+  xy: 458, 116
+  size: 100, 116
+  orig: 128, 128
+  offset: 16, 12
+  index: -1
+huo05
+  rotate: false
+  xy: 576, 104
+  size: 96, 112
+  orig: 128, 128
+  offset: 16, 16
+  index: -1
+huo06
+  rotate: true
+  xy: 576, 6
+  size: 96, 112
+  orig: 128, 128
+  offset: 16, 16
+  index: -1
+huo07
+  rotate: true
+  xy: 116, 2
+  size: 92, 108
+  orig: 128, 128
+  offset: 20, 16
+  index: -1
+huo08
+  rotate: true
+  xy: 2, 2
+  size: 88, 112
+  orig: 128, 128
+  offset: 20, 0
+  index: -1
+huo09
+  rotate: false
+  xy: 788, 2
+  size: 88, 112
+  orig: 128, 128
+  offset: 20, 0
+  index: -1
+huo10
+  rotate: false
+  xy: 674, 112
+  size: 96, 104
+  orig: 128, 128
+  offset: 16, 0
+  index: -1
+huo11
+  rotate: false
+  xy: 690, 6
+  size: 96, 104
+  orig: 128, 128
+  offset: 16, 0
+  index: -1
+huo12
+  rotate: false
+  xy: 772, 116
+  size: 92, 100
+  orig: 128, 128
+  offset: 20, 0
+  index: -1
+huo13
+  rotate: true
+  xy: 226, 18
+  size: 96, 124
+  orig: 128, 128
+  offset: 16, 4
+  index: -1
+huo14
+  rotate: true
+  xy: 214, 116
+  size: 100, 124
+  orig: 128, 128
+  offset: 12, 4
+  index: -1
+huo15
+  rotate: false
+  xy: 470, 2
+  size: 104, 112
+  orig: 128, 128
+  offset: 12, 8
+  index: -1

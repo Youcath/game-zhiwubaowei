@@ -1,0 +1,83 @@
+
+chaowuzhuangpei.png
+size: 428, 1002
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+_0000_baokai_1
+  rotate: false
+  xy: 226, 836
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+_0001_baokai_2
+  rotate: false
+  xy: 226, 670
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+_0002_baokai_3
+  rotate: false
+  xy: 226, 504
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+_0003_baokai_4
+  rotate: false
+  xy: 226, 338
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+_0004_baokai_5
+  rotate: false
+  xy: 226, 172
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+_0005_baokai_6
+  rotate: false
+  xy: 226, 6
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+fashe1
+  rotate: true
+  xy: 2, 802
+  size: 198, 222
+  orig: 198, 222
+  offset: 0, 0
+  index: -1
+fashe2
+  rotate: true
+  xy: 2, 602
+  size: 198, 222
+  orig: 198, 222
+  offset: 0, 0
+  index: -1
+fashe3
+  rotate: true
+  xy: 2, 402
+  size: 198, 222
+  orig: 198, 222
+  offset: 0, 0
+  index: -1
+fashe4
+  rotate: true
+  xy: 2, 202
+  size: 198, 222
+  orig: 198, 222
+  offset: 0, 0
+  index: -1
+fashe5
+  rotate: true
+  xy: 2, 2
+  size: 198, 222
+  orig: 198, 222
+  offset: 0, 0
+  index: -1

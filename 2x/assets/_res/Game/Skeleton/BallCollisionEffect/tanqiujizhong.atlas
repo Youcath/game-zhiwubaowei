@@ -1,0 +1,13 @@
+
+tanqiujizhong.png
+size: 40,40
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tanzhong
+  rotate: false
+  xy: 2, 2
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

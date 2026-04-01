@@ -1,0 +1,27 @@
+
+zajiao7_skill.png
+size: 272,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 107, 2
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: true
+  xy: 212, 9
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1

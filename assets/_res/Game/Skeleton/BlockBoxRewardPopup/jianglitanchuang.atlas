@@ -1,0 +1,34 @@
+
+jianglitanchuang.png
+size: 741,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pic_taiyanglun_jihuo_x4_Av
+  rotate: true
+  xy: 2, 2
+  size: 533, 561
+  orig: 533, 561
+  offset: 0, 0
+  index: -1
+pic_xingji_da
+  rotate: true
+  xy: 565, 316
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+pic_xingxing
+  rotate: false
+  xy: 565, 272
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+xuanzhuanguang
+  rotate: true
+  xy: 565, 360
+  size: 175, 174
+  orig: 175, 174
+  offset: 0, 0
+  index: -1

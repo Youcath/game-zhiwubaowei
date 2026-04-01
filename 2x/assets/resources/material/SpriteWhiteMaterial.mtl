@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.Material",
+  "_name": "SpriteWhiteMaterial",
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  },
+  "_effectAsset": {
+    "__uuid__": "91333007-7cb0-483a-b44a-8f41be0564b9"
+  },
+  "_techniqueIndex": 0
+}

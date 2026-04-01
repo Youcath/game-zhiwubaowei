@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fc1df072-92ec-44c2-aef7-e3d978b57f60",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 636,
+  "height": 178,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_dazhiwukuang_5": {
+      "ver": "1.0.6",
+      "uuid": "1944fffe-c37a-488f-b9d1-c45d508d33ec",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fc1df072-92ec-44c2-aef7-e3d978b57f60",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 635,
+      "height": 177,
+      "rawWidth": 636,
+      "rawHeight": 178,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

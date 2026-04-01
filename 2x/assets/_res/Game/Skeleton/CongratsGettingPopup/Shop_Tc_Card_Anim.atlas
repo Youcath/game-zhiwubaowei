@@ -1,0 +1,41 @@
+
+Shop_Tc_Card_Anim.png
+size: 1024, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+eff-0
+  rotate: false
+  xy: 257, 128
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+eff-1
+  rotate: false
+  xy: 257, 10
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+eff-2
+  rotate: false
+  xy: 387, 128
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+eff-3
+  rotate: false
+  xy: 0, 0
+  size: 255, 256
+  orig: 255, 256
+  offset: 0, 0
+  index: -1
+pic_equipment_place0
+  rotate: false
+  xy: 517, 154
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

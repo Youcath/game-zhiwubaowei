@@ -1,0 +1,76 @@
+
+zajiao8_skill.png
+size: 1032,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000_diyan1
+  rotate: false
+  xy: 592, 11
+  size: 145, 54
+  orig: 159, 59
+  offset: 7, 1
+  index: -1
+_0000_yan1
+  rotate: false
+  xy: 327, 17
+  size: 135, 109
+  orig: 136, 117
+  offset: 0, 5
+  index: -1
+_0001_diyan2
+  rotate: false
+  xy: 592, 67
+  size: 159, 59
+  orig: 159, 59
+  offset: 0, 0
+  index: -1
+_0001_yan2
+  rotate: false
+  xy: 464, 11
+  size: 126, 115
+  orig: 136, 117
+  offset: 3, 1
+  index: -1
+_0002_yan3
+  rotate: false
+  xy: 190, 9
+  size: 135, 117
+  orig: 136, 117
+  offset: 1, 0
+  index: -1
+chongji
+  rotate: false
+  xy: 753, 18
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+chongjibo3
+  rotate: false
+  xy: 863, 25
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+shuyan
+  rotate: true
+  xy: 2, 2
+  size: 124, 186
+  orig: 124, 186
+  offset: 0, 0
+  index: -1
+yanwu1
+  rotate: false
+  xy: 966, 66
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+yanwu2
+  rotate: false
+  xy: 966, 6
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1

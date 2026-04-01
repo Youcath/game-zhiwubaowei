@@ -1,0 +1,69 @@
+
+public_vertigo.png
+size: 415,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 4
+  size: 91, 46
+  orig: 123, 63
+  offset: 18, 8
+  index: -1
+2
+  rotate: false
+  xy: 90, 45
+  size: 102, 50
+  orig: 123, 63
+  offset: 10, 5
+  index: -1
+3
+  rotate: false
+  xy: 203, 2
+  size: 103, 45
+  orig: 123, 63
+  offset: 12, 9
+  index: -1
+4
+  rotate: false
+  xy: 194, 49
+  size: 106, 46
+  orig: 123, 63
+  offset: 8, 7
+  index: -1
+5
+  rotate: false
+  xy: 302, 51
+  size: 110, 44
+  orig: 123, 63
+  offset: 6, 7
+  index: -1
+6
+  rotate: false
+  xy: 90, 4
+  size: 111, 39
+  orig: 123, 63
+  offset: 3, 12
+  index: -1
+7
+  rotate: false
+  xy: 308, 11
+  size: 105, 38
+  orig: 123, 63
+  offset: 4, 12
+  index: -1
+8
+  rotate: false
+  xy: 308, 11
+  size: 105, 38
+  orig: 123, 63
+  offset: 4, 12
+  index: -1
+9
+  rotate: true
+  xy: 50, 7
+  size: 88, 38
+  orig: 123, 63
+  offset: 17, 11
+  index: -1

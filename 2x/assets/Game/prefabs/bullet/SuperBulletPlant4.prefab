@@ -1,0 +1,96 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "SuperBulletPlant4",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SuperBulletPlant4",
+    "_groupIndex": 4,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "groupIndex": 4,
+    "_id": "ce454edb-ba0e-49a8-8cdb-58e0cc4a3769"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "zidan4",
+    "_groupIndex": 4,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 78,
+      "height": 55
+    },
+    "groupIndex": 4
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 2
+    },
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": {
+      "__uuid__": "b4b5acaa-2113-42b4-bd86-7ac9156dc43d"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "e4CSvnLCZP6aZR78u1k0Za",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "583611qNxxEo6JeCg+Vso0O",
+    "mBulletHitPb": {
+      "__uuid__": "f3eb1a1e-52ff-457a-9c30-ab36a17c4b6f"
+    },
+    "mImg": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  }
+]

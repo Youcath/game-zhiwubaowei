@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ad6ac606-4238-4239-b195-c812ae144c25",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 223,
+  "height": 187,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_icon_tanqiu": {
+      "ver": "1.0.6",
+      "uuid": "649099c2-96cd-4256-a1c3-5ec2e90060a0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ad6ac606-4238-4239-b195-c812ae144c25",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 222,
+      "height": 187,
+      "rawWidth": 223,
+      "rawHeight": 187,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

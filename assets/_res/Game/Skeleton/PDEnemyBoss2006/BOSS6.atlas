@@ -1,0 +1,55 @@
+
+BOSS6.png
+size: 223,61
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti3
+  rotate: false
+  xy: 73, 9
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: true
+  xy: 2, 2
+  size: 57, 69
+  orig: 58, 69
+  offset: 1, 0
+  index: -1
+wuqi2_1
+  rotate: false
+  xy: 123, 16
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+wuqi2_2
+  rotate: false
+  xy: 150, 17
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 123, 4
+  size: 56, 10
+  orig: 56, 10
+  offset: 0, 0
+  index: -1
+youshou3
+  rotate: false
+  xy: 181, 33
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+zuoshou3
+  rotate: false
+  xy: 181, 6
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1

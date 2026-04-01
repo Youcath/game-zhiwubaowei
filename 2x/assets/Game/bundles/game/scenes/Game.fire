@@ -1,0 +1,234 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "Game",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "New Node",
+    "_active": false,
+    "autoReleaseAssets": true,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_id": "843aa7bb-b0a4-4570-8ffc-3cec90e1d220"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_id": "a5esZu+45LA5mBpvttspPD",
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      }
+    ],
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        375,
+        812,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_parent": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Main Camera",
+    "_parent": {
+      "__id__": 2
+    },
+    "_components": [
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    }
+  },
+  {
+    "__type__": "cc.Camera",
+    "_cullingMask": -31,
+    "node": {
+      "__id__": 3
+    }
+  },
+  {
+    "__type__": "cc.Widget",
+    "_alignFlags": 45,
+    "_originalWidth": 750,
+    "_originalHeight": 1334,
+    "node": {
+      "__id__": 3
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "camerNode",
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [
+      {
+        "__id__": 7
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 9
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "gameCamera",
+    "_parent": {
+      "__id__": 6
+    },
+    "_components": [
+      {
+        "__id__": 8
+      }
+    ],
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        554.25626,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Camera",
+    "_cullingMask": -2,
+    "_clearFlags": 7,
+    "_depth": -1,
+    "_nearClip": 0.1,
+    "node": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "e04bbjBLxVL1YmFr4aVGQeZ",
+    "mCamera": {
+      "__id__": 8
+    },
+    "node": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_fitWidth": true,
+    "_fitHeight": false,
+    "_designResolution": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    },
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "6dad0ClurhIVr8EVrTSTbGg",
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "0088707qmtJUqzffRiwAXyw",
+    "mGameUIPb": {
+      "__uuid__": "17f41bd3-4881-452f-8506-18bec19aeee7"
+    },
+    "mGameCamera": {
+      "__id__": 6
+    },
+    "mUICamera": {
+      "__id__": 3
+    },
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "cc.Widget",
+    "_alignFlags": 45,
+    "node": {
+      "__id__": 2
+    }
+  }
+]

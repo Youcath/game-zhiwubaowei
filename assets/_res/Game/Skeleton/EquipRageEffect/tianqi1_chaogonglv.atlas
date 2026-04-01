@@ -1,0 +1,48 @@
+
+tianqi1_chaogonglv.png
+size: 355,303
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000_1
+  rotate: false
+  xy: 173, 116
+  size: 167, 77
+  orig: 183, 140
+  offset: 10, 22
+  index: -1
+_0001_2
+  rotate: false
+  xy: 2, 197
+  size: 178, 104
+  orig: 183, 140
+  offset: 2, 23
+  index: -1
+_0002_3
+  rotate: false
+  xy: 2, 96
+  size: 169, 99
+  orig: 183, 140
+  offset: 10, 39
+  index: -1
+_0003_4
+  rotate: false
+  xy: 2, 6
+  size: 160, 88
+  orig: 183, 140
+  offset: 16, 30
+  index: -1
+_0004_5
+  rotate: false
+  xy: 173, 2
+  size: 161, 112
+  orig: 183, 140
+  offset: 11, 9
+  index: -1
+_0005_6
+  rotate: false
+  xy: 182, 195
+  size: 171, 106
+  orig: 183, 140
+  offset: 6, 2
+  index: -1

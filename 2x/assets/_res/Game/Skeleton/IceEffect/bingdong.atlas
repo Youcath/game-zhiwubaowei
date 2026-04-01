@@ -1,0 +1,48 @@
+
+bingdong.png
+size: 83, 73
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bing
+  rotate: false
+  xy: 2, 36
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+bingqi
+  rotate: false
+  xy: 2, 2
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+bingwu1
+  rotate: false
+  xy: 47, 39
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+xuehua
+  rotate: true
+  xy: 38, 5
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+xuehua2
+  rotate: true
+  xy: 66, 20
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+xuehua3
+  rotate: false
+  xy: 66, 2
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1

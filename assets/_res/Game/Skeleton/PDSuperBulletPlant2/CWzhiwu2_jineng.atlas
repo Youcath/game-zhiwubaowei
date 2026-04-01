@@ -1,0 +1,125 @@
+
+CWzhiwu2_jineng.png
+size: 1340,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 2, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+01
+  rotate: false
+  xy: 80, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 158, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 236, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 314, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 392, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 470, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 548, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 626, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 704, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 782, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 860, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 938, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 1016, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 1094, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+yingtao
+  rotate: false
+  xy: 1172, 15
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1
+yingtao_hong
+  rotate: false
+  xy: 1256, 15
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+dianjinbingkuai.png
+size: 141,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingcha
+  rotate: true
+  xy: 116, 68
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 2
+  size: 112, 93
+  orig: 117, 99
+  offset: 2, 3
+  index: -1
+xuelizi
+  rotate: false
+  xy: 116, 60
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1

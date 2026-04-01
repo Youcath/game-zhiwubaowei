@@ -1,0 +1,41 @@
+
+gecaoji.png
+size: 325,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 112, 130
+  orig: 112, 130
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 134, 2
+  size: 112, 130
+  orig: 112, 130
+  offset: 0, 0
+  index: -1
+benpao_1
+  rotate: true
+  xy: 266, 53
+  size: 61, 34
+  orig: 62, 34
+  offset: 1, 0
+  index: -1
+benpao_2
+  rotate: false
+  xy: 266, 21
+  size: 55, 30
+  orig: 62, 34
+  offset: 0, 0
+  index: -1
+cao
+  rotate: false
+  xy: 302, 67
+  size: 21, 47
+  orig: 21, 47
+  offset: 0, 0
+  index: -1

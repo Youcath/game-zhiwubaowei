@@ -1,0 +1,104 @@
+
+tianqiguanka.png
+size: 1499,354
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dawu
+  rotate: true
+  xy: 1339, 146
+  size: 206, 158
+  orig: 206, 158
+  offset: 0, 0
+  index: -1
+fengguncao
+  rotate: true
+  xy: 1339, 78
+  size: 66, 75
+  orig: 66, 75
+  offset: 0, 0
+  index: -1
+shachen
+  rotate: true
+  xy: 2, 2
+  size: 350, 382
+  orig: 457, 477
+  offset: 59, 50
+  index: -1
+shanbai
+  rotate: false
+  xy: 768, 28
+  size: 46, 68
+  orig: 46, 68
+  offset: 0, 0
+  index: -1
+shandian
+  rotate: true
+  xy: 386, 76
+  size: 20, 380
+  orig: 20, 380
+  offset: 0, 0
+  index: -1
+shuidi
+  rotate: false
+  xy: 1281, 61
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: false
+  xy: 1329, 54
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: true
+  xy: 1416, 58
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+wuyun
+  rotate: false
+  xy: 829, 123
+  size: 508, 229
+  orig: 508, 229
+  offset: 0, 0
+  index: -1
+xuedi
+  rotate: false
+  xy: 829, 13
+  size: 450, 108
+  orig: 450, 108
+  offset: 0, 0
+  index: -1
+xuehua
+  rotate: false
+  xy: 1281, 75
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+yinghuochong
+  rotate: false
+  xy: 1416, 102
+  size: 42, 42
+  orig: 45, 45
+  offset: 1, 1
+  index: -1
+yudi
+  rotate: false
+  xy: 816, 77
+  size: 11, 19
+  orig: 15, 25
+  offset: 2, 3
+  index: -1
+yun
+  rotate: false
+  xy: 386, 98
+  size: 441, 254
+  orig: 442, 254
+  offset: 1, 0
+  index: -1

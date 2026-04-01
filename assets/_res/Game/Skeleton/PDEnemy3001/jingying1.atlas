@@ -1,0 +1,55 @@
+
+jingying1.png
+size: 66,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti3
+  rotate: false
+  xy: 2, 54
+  size: 51, 48
+  orig: 51, 48
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: true
+  xy: 2, 116
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+wuqi2_1
+  rotate: false
+  xy: 44, 31
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+wuqi2_2
+  rotate: false
+  xy: 44, 9
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 2, 104
+  size: 56, 10
+  orig: 56, 10
+  offset: 0, 0
+  index: -1
+youshou3
+  rotate: false
+  xy: 2, 28
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+zuoshou3
+  rotate: false
+  xy: 2, 2
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1

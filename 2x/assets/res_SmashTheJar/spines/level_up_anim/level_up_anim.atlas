@@ -1,0 +1,104 @@
+
+level_up_anim.png
+size: 554,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00002
+  rotate: false
+  xy: 2, 26
+  size: 246, 44
+  orig: 257, 59
+  offset: 5, 8
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00001
+  rotate: true
+  xy: 421, 375
+  size: 110, 70
+  orig: 163, 285
+  offset: 29, 12
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00002
+  rotate: true
+  xy: 2, 329
+  size: 156, 267
+  orig: 163, 285
+  offset: 2, 3
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00003
+  rotate: true
+  xy: 268, 70
+  size: 148, 247
+  orig: 163, 285
+  offset: 10, 8
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00004
+  rotate: false
+  xy: 271, 220
+  size: 148, 265
+  orig: 163, 285
+  offset: 5, 14
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00005
+  rotate: false
+  xy: 2, 72
+  size: 134, 255
+  orig: 163, 285
+  offset: 10, 15
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00006
+  rotate: false
+  xy: 138, 72
+  size: 128, 255
+  orig: 163, 285
+  offset: 15, 17
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00007
+  rotate: false
+  xy: 421, 234
+  size: 67, 139
+  orig: 163, 285
+  offset: 51, 58
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00008
+  rotate: true
+  xy: 257, 2
+  size: 66, 123
+  orig: 163, 285
+  offset: 52, 62
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00009
+  rotate: true
+  xy: 382, 2
+  size: 66, 118
+  orig: 163, 285
+  offset: 53, 68
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00011
+  rotate: false
+  xy: 490, 296
+  size: 62, 77
+  orig: 163, 285
+  offset: 54, 92
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00013
+  rotate: false
+  xy: 493, 407
+  size: 35, 78
+  orig: 163, 285
+  offset: 71, 94
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00015
+  rotate: true
+  xy: 250, 64
+  size: 6, 5
+  orig: 163, 285
+  offset: 77, 96
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00017
+  rotate: false
+  xy: 268, 326
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

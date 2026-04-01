@@ -1,0 +1,41 @@
+
+zajao5_skill.png
+size: 318,156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ci
+  rotate: true
+  xy: 132, 95
+  size: 59, 130
+  orig: 59, 130
+  offset: 0, 0
+  index: -1
+shengbo
+  rotate: true
+  xy: 2, 28
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+texiao
+  rotate: true
+  xy: 264, 68
+  size: 86, 52
+  orig: 89, 53
+  offset: 0, 1
+  index: -1
+yanwu
+  rotate: true
+  xy: 253, 7
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+zhakai
+  rotate: false
+  xy: 132, 2
+  size: 119, 91
+  orig: 119, 92
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,118 @@
+
+guanzisuipian.png
+size: 1174,355
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 195, 159
+  size: 156, 194
+  orig: 159, 201
+  offset: 1, 6
+  index: -1
+_0000_1
+  rotate: false
+  xy: 1036, 59
+  size: 136, 140
+  orig: 199, 188
+  offset: 41, 26
+  index: -1
+_0001_2
+  rotate: false
+  xy: 890, 201
+  size: 148, 152
+  orig: 199, 188
+  offset: 33, 18
+  index: -1
+_0002_3
+  rotate: true
+  xy: 224, 5
+  size: 152, 156
+  orig: 199, 188
+  offset: 36, 14
+  index: -1
+_0003_4
+  rotate: false
+  xy: 732, 189
+  size: 156, 164
+  orig: 199, 188
+  offset: 33, 13
+  index: -1
+_0004_5
+  rotate: false
+  xy: 878, 23
+  size: 156, 164
+  orig: 199, 188
+  offset: 33, 13
+  index: -1
+_0005_6
+  rotate: true
+  xy: 382, 4
+  size: 160, 168
+  orig: 199, 188
+  offset: 31, 9
+  index: -1
+_0006_7
+  rotate: false
+  xy: 718, 8
+  size: 158, 168
+  orig: 199, 188
+  offset: 32, 8
+  index: -1
+housuipian1
+  rotate: false
+  xy: 616, 178
+  size: 114, 175
+  orig: 115, 175
+  offset: 0, 0
+  index: -1
+housuipian2
+  rotate: false
+  xy: 353, 166
+  size: 144, 187
+  orig: 146, 187
+  offset: 1, 0
+  index: -1
+housuipian3
+  rotate: true
+  xy: 499, 177
+  size: 176, 115
+  orig: 176, 116
+  offset: 0, 0
+  index: -1
+qiansuipian1
+  rotate: true
+  xy: 552, 2
+  size: 173, 164
+  orig: 174, 165
+  offset: 1, 0
+  index: -1
+qiansuipian2
+  rotate: false
+  xy: 1040, 217
+  size: 93, 136
+  orig: 95, 136
+  offset: 0, 0
+  index: -1
+qiansuipian3
+  rotate: false
+  xy: 2, 126
+  size: 100, 227
+  orig: 102, 228
+  offset: 1, 0
+  index: -1
+qiansuipian4
+  rotate: false
+  xy: 2, 4
+  size: 220, 120
+  orig: 220, 120
+  offset: 0, 0
+  index: -1
+qiansuipian5
+  rotate: false
+  xy: 104, 152
+  size: 89, 201
+  orig: 115, 241
+  offset: 25, 0
+  index: -1

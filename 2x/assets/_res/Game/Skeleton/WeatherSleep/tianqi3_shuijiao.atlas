@@ -1,0 +1,13 @@
+
+tianqi3_shuijiao.png
+size: 34,37
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Z
+  rotate: false
+  xy: 2, 2
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1

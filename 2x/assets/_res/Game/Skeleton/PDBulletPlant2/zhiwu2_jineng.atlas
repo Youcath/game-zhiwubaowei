@@ -1,0 +1,167 @@
+
+zhiwu2_jineng.png
+size: 458,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 2, 32
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+01
+  rotate: false
+  xy: 67, 224
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 67, 146
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 80, 68
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 145, 224
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 145, 146
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 158, 68
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 223, 224
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 223, 146
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 236, 68
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 301, 224
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 301, 146
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 314, 68
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 379, 224
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 379, 146
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+huo1
+  rotate: false
+  xy: 80, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+huo2
+  rotate: false
+  xy: 146, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+huo3
+  rotate: false
+  xy: 212, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+huo4
+  rotate: false
+  xy: 278, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+huo5
+  rotate: false
+  xy: 344, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+huo6
+  rotate: false
+  xy: 392, 80
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+yingtao
+  rotate: true
+  xy: 2, 206
+  size: 94, 63
+  orig: 94, 63
+  offset: 0, 0
+  index: -1
+yingtao_hong
+  rotate: true
+  xy: 2, 110
+  size: 94, 63
+  orig: 94, 63
+  offset: 0, 0
+  index: -1

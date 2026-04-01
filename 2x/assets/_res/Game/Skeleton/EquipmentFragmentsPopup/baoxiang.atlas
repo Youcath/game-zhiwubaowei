@@ -1,0 +1,104 @@
+
+baoxiang.png
+size: 1471,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoshi
+  rotate: false
+  xy: 1415, 103
+  size: 54, 58
+  orig: 64, 67
+  offset: 5, 9
+  index: -1
+guancaiban1
+  rotate: true
+  xy: 186, 9
+  size: 152, 181
+  orig: 152, 181
+  offset: 0, 0
+  index: -1
+guancaiban2
+  rotate: true
+  xy: 2, 9
+  size: 152, 182
+  orig: 152, 182
+  offset: 0, 0
+  index: -1
+guancaigai1
+  rotate: true
+  xy: 369, 9
+  size: 152, 174
+  orig: 152, 174
+  offset: 0, 0
+  index: -1
+guancaigai2
+  rotate: true
+  xy: 545, 9
+  size: 152, 174
+  orig: 152, 174
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: true
+  xy: 721, 11
+  size: 150, 195
+  orig: 150, 195
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: true
+  xy: 918, 11
+  size: 150, 195
+  orig: 150, 195
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: true
+  xy: 1235, 64
+  size: 97, 114
+  orig: 97, 114
+  offset: 0, 0
+  index: -1
+icon_jinbi
+  rotate: false
+  xy: 1300, 8
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1
+pic_xingxing
+  rotate: true
+  xy: 1115, 5
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 1115, 47
+  size: 118, 114
+  orig: 118, 114
+  offset: 0, 0
+  index: -1
+youshou1
+  rotate: false
+  xy: 1351, 29
+  size: 62, 132
+  orig: 62, 133
+  offset: 0, 0
+  index: -1
+zuanshi
+  rotate: false
+  xy: 1235, 2
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1
+zuotui1
+  rotate: false
+  xy: 1415, 5
+  size: 47, 96
+  orig: 47, 96
+  offset: 0, 0
+  index: -1

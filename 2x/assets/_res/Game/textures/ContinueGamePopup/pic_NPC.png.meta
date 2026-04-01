@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e3b0ae4d-278a-4960-b6cf-b55923bfd3e1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 300,
+  "height": 290,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_NPC": {
+      "ver": "1.0.6",
+      "uuid": "e1f28520-373f-4ea0-88a4-8657f692a6d1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e3b0ae4d-278a-4960-b6cf-b55923bfd3e1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 299,
+      "height": 289,
+      "rawWidth": 300,
+      "rawHeight": 290,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c600e7a5-d12b-4ec7-b902-b27e5c13319a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": false,
+  "width": 98,
+  "height": 98,
+  "platformSettings": {},
+  "subMetas": {
+    "pic_zhandou_zhuangbei_xuankuang2": {
+      "ver": "1.0.6",
+      "uuid": "78722e96-e22d-4b6e-8a53-bc6f18ac7a74",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c600e7a5-d12b-4ec7-b902-b27e5c13319a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 98,
+      "height": 98,
+      "rawWidth": 98,
+      "rawHeight": 98,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+CWzhiwu6_skill.png
+size: 20,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ci
+  rotate: false
+  xy: 2, 2
+  size: 16, 140
+  orig: 16, 140
+  offset: 0, 0
+  index: -1

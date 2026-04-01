@@ -1,0 +1,48 @@
+
+CWzhiwu14_skill.png
+size: 239,146
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tou
+  rotate: true
+  xy: 178, 71
+  size: 73, 59
+  orig: 73, 59
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: true
+  xy: 2, 2
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+wuqibai
+  rotate: false
+  xy: 2, 53
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+wuqida
+  rotate: false
+  xy: 95, 63
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 178, 11
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 95, 4
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+{
+  "__type__": "cc.Material",
+  "_name": "builtin-2d-gray-spine",
+  "_techniqueData": {
+    "0": {
+      "defines": {}
+    }
+  },
+  "_effectAsset": {
+    "__uuid__": "31bc5176-563e-4ddd-89ab-c693188099d4"
+  },
+  "_techniqueIndex": 0
+}

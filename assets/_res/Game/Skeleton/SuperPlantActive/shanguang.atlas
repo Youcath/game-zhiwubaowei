@@ -1,0 +1,104 @@
+
+shanguang.png
+size: 160,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ae_attack_hit_10
+  rotate: true
+  xy: 2, 33
+  size: 69, 70
+  orig: 100, 100
+  offset: 17, 15
+  index: -1
+ae_attack_hit_12
+  rotate: false
+  xy: 81, 133
+  size: 75, 69
+  orig: 100, 100
+  offset: 16, 17
+  index: -1
+ae_attack_hit_14
+  rotate: true
+  xy: 85, 204
+  size: 81, 71
+  orig: 100, 100
+  offset: 14, 18
+  index: -1
+ae_attack_hit_16
+  rotate: false
+  xy: 2, 252
+  size: 81, 73
+  orig: 100, 100
+  offset: 15, 17
+  index: -1
+ae_attack_hit_18
+  rotate: false
+  xy: 2, 176
+  size: 77, 74
+  orig: 100, 100
+  offset: 20, 17
+  index: -1
+ae_attack_hit_2
+  rotate: false
+  xy: 118, 20
+  size: 40, 40
+  orig: 100, 100
+  offset: 29, 30
+  index: -1
+ae_attack_hit_20
+  rotate: true
+  xy: 95, 345
+  size: 72, 53
+  orig: 100, 100
+  offset: 25, 26
+  index: -1
+ae_attack_hit_22
+  rotate: false
+  xy: 2, 2
+  size: 51, 29
+  orig: 100, 100
+  offset: 46, 48
+  index: -1
+ae_attack_hit_4
+  rotate: false
+  xy: 95, 287
+  size: 58, 56
+  orig: 100, 100
+  offset: 22, 23
+  index: -1
+ae_attack_hit_6
+  rotate: false
+  xy: 75, 62
+  size: 70, 69
+  orig: 100, 100
+  offset: 16, 17
+  index: -1
+ae_attack_hit_8
+  rotate: false
+  xy: 2, 104
+  size: 71, 70
+  orig: 100, 100
+  offset: 15, 16
+  index: -1
+guang2
+  rotate: false
+  xy: 2, 419
+  size: 150, 162
+  orig: 150, 195
+  offset: 0, 17
+  index: -1
+pic_xingxing
+  rotate: true
+  xy: 74, 20
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+taiyang
+  rotate: true
+  xy: 2, 327
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1

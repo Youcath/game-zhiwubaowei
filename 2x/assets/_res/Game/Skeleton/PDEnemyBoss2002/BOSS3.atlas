@@ -1,0 +1,48 @@
+
+BOSS3.png
+size: 131,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinshe
+  rotate: false
+  xy: 2, 2
+  size: 36, 60
+  orig: 36, 60
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 73, 36
+  size: 42, 96
+  orig: 42, 96
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 64
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 117, 67
+  size: 65, 12
+  orig: 65, 12
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 72, 8
+  size: 26, 51
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 40, 12
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1

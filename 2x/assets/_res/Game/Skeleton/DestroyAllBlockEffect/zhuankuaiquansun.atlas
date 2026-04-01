@@ -1,0 +1,27 @@
+
+zhuankuaiquansun.png
+size: 340,69
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 315, 41
+  size: 26, 23
+  orig: 26, 24
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 315, 19
+  size: 20, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 2
+  size: 311, 65
+  orig: 311, 65
+  offset: 0, 0
+  index: -1

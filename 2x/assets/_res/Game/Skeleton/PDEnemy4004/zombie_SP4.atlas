@@ -1,0 +1,146 @@
+
+zombie_SP4.png
+size: 116,623
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chibang
+  rotate: true
+  xy: 2, 214
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 372
+  size: 103, 154
+  orig: 104, 154
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 63, 60
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+nitu
+  rotate: false
+  xy: 2, 278
+  size: 77, 26
+  orig: 77, 26
+  offset: 0, 0
+  index: -1
+pic_xingxing
+  rotate: false
+  xy: 74, 212
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+shangdi
+  rotate: true
+  xy: 2, 528
+  size: 93, 111
+  orig: 93, 111
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 165
+  size: 47, 70
+  orig: 47, 70
+  offset: 0, 0
+  index: -1
+shizijia
+  rotate: true
+  xy: 2, 61
+  size: 42, 59
+  orig: 42, 59
+  offset: 0, 0
+  index: -1
+shizijia_bai
+  rotate: true
+  xy: 2, 306
+  size: 64, 80
+  orig: 66, 83
+  offset: 1, 1
+  index: -1
+shu
+  rotate: true
+  xy: 62, 31
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 63, 79
+  size: 58, 46
+  orig: 58, 46
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 2, 4
+  size: 58, 55
+  orig: 60, 55
+  offset: 2, 0
+  index: -1
+wenhao
+  rotate: false
+  xy: 81, 256
+  size: 33, 44
+  orig: 33, 44
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 2, 105
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 95, 2
+  size: 56, 10
+  orig: 56, 10
+  offset: 0, 0
+  index: -1
+youjian
+  rotate: false
+  xy: 74, 139
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 84, 302
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+zuojian
+  rotate: true
+  xy: 62, 6
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+zuoshou1
+  rotate: true
+  xy: 84, 337
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+zuoshou2
+  rotate: true
+  xy: 74, 169
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
