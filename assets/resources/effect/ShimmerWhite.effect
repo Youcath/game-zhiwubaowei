@@ -20,7 +20,7 @@ CCEffect %{
       properties:
         alphaThreshold: { value: 0.5 }
         u_color: { value: [1, 1, 1, 1], editor: { type: color } }
-        u_rate: { value: [1.0] }
+        u_rate: { value: [1, 0, 0, 0] }
 }%
 
 CCProgram sprite-vs %{
@@ -74,8 +74,10 @@ CCProgram sprite-fs %{
   #pragma builtin(local)
   layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
 
-  uniform vec4 u_color;
-  uniform float u_rate;
+  uniform Constants {
+    vec4 u_color;
+    vec4 u_rate;
+  };
 
   vec4 frag () {
 
@@ -91,7 +93,7 @@ CCProgram sprite-fs %{
       o *= v_light;
     #endif
 
-    float t = clamp(u_rate, 0.0, 1.0);
+    float t = clamp(u_rate.x, 0.0, 1.0);
     o.rgb = mix(u_color.rgb, o.rgb, t);
 
     ALPHA_TEST(o);

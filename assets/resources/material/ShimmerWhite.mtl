@@ -1,25 +1,47 @@
 {
   "__type__": "cc.Material",
   "_name": "ShimmerWhite",
-  "_techniqueData": {
-    "0": {
-      "defines": {
-        "USE_TEXTURE": true
-      },
-      "props": {
-        "u_rate": 1,
-        "u_color": {
-          "b": 255,
-          "a": 255,
-          "r": 255,
-          "g": 255,
-          "__type__": "cc.Color"
-        }
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "4bd438d1-a136-4d8f-900f-5bc1dfe9749d",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_TEXTURE": true,
+      "CC_USE_EMBEDDED_ALPHA": false,
+      "IS_GRAY": false
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
       }
     }
-  },
-  "_effectAsset": {
-    "__uuid__": "4bd438d1-a136-4d8f-900f-5bc1dfe9749d"
-  },
-  "_techniqueIndex": 0
+  ],
+  "_props": [
+    {
+      "u_color": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "u_rate": {
+        "__type__": "cc.Vec4",
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "w": 0
+      }
+    }
+  ]
 }

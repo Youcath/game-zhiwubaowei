@@ -3,6 +3,7 @@
  * 全量战斗逻辑待后续从 2.x 迁完。
  */
 
+import { Node } from 'cc';
 import { GameState, WeatherType } from './GameEnum';
 import { DataManager } from './DataManager';
 import { ProxyBase } from './ProxyBase';
@@ -34,6 +35,8 @@ export class BattleData {
 export class BattleDataProxy extends ProxyBase<BattleData> {
   /** 音效去重冷却（由战斗场景里每帧扣减 time，见原 BattleView / HomeScene） */
   audioFilterInfo: Record<string, { time: number }> = {};
+  /** 阳光数字等 UI 根节点（战斗内赋值，供 AnimationMgr 飞图标终点） */
+  sunshineRoot: Node | null = null;
   private _gameState = GameState.NONE;
 
   isGameLose = false;

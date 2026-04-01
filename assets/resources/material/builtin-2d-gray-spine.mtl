@@ -1,13 +1,32 @@
 {
   "__type__": "cc.Material",
   "_name": "builtin-2d-gray-spine",
-  "_techniqueData": {
-    "0": {
-      "defines": {}
-    }
-  },
+  "_objFlags": 0,
+  "_native": "",
   "_effectAsset": {
-    "__uuid__": "31bc5176-563e-4ddd-89ab-c693188099d4"
+    "__uuid__": "31bc5176-563e-4ddd-89ab-c693188099d4",
+    "__expectedType__": "cc.EffectAsset"
   },
-  "_techniqueIndex": 0
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_TEXTURE": true,
+      "CC_USE_EMBEDDED_ALPHA": false,
+      "IS_GRAY": false
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {}
+  ]
 }
