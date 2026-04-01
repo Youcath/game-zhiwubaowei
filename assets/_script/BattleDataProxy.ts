@@ -3,10 +3,12 @@
  * 全量战斗逻辑待后续从 2.x 迁完。
  */
 
-import { Node } from 'cc';
+import { Node, Sprite, SpriteFrame } from 'cc';
 import { GameState, WeatherType } from './GameEnum';
 import { DataManager } from './DataManager';
+import { Bundles } from './HomeEnum';
 import { ProxyBase } from './ProxyBase';
+import { ResUtil } from './ResUtil';
 import { SqlUtil } from './SqlUtil';
 import { userDataProxy } from './UserDataProxy';
 
@@ -75,6 +77,34 @@ export class BattleDataProxy extends ProxyBase<BattleData> {
 
   loadBattlePlantData(): string {
     return `${SqlUtil.getLocalUserData('BattlePlantData', '')}`;
+  }
+
+  /**
+   * 视频/道具图标（原 setVideoCardIcon）：有道具 4 时用 icon_4，否则用广告图 pic_AD_{index}。
+   */
+  setVideoCardIcon(iconNode: Node | null, adPicIndex = 1, baseScale = 1): void {
+    if (iconNode == null) return;
+    const hasItem = userDataProxy.getProp(4) > 0;
+    let scale = baseScale;
+    let path: string;
+    if (hasItem) {
+      path = 'textures/item/icon_4';
+      scale = 0.5 * baseScale;
+    } else {
+      path = `textures/public/pic_AD_${adPicIndex}`;
+    }
+    ResUtil.loadAsset({
+      path,
+      type: SpriteFrame,
+      bundleName: Bundles.GAME,
+    })
+      .then((sf) => {
+        if (!iconNode.isValid) return;
+        const sp = iconNode.getComponent(Sprite);
+        if (sp != null) sp.spriteFrame = sf as SpriteFrame;
+        iconNode.setScale(scale, scale, 1);
+      })
+      .catch((e) => console.log('error:', e));
   }
 
   /**
