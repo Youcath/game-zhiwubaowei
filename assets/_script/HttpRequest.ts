@@ -1,6 +1,6 @@
 /** HTTP + AES（原 HttpRequest.js）；Token 从 gameSession 读取 */
 
-import CryptoJS from 'crypto-js';
+import * as CryptoJS from 'crypto-js';
 import { gameSession } from './gameSession';
 
 const DEFAULT_BASE = 'https://minigame.yuanzililiang.cn/pinball/zombie';
