@@ -2,8 +2,9 @@
 name: cocos-creator-2x-to-3x-scripts
 description: >-
   将 Cocos Creator 2.x（JavaScript、全局 cc）业务脚本迁移到 3.x TypeScript（import from
-  "cc"、装饰器）。仅涉及引擎官方 API 与通用模式：模块导入、生命周期、事件监听、UI 组件、动画、资源、第三方
-  List 替代、TypeScript 语法坑。在用户做 Creator 2.4→3.8 量级脚本迁移或提到 cc 全局改 import 时启用。
+  "cc"、装饰器）。强制：`.ts` 相对 `assets/` 的路径与 `2x/assets` 下对应 `.js` 一致（含各 bundle 内 `_script`）。
+  另含引擎官方 API 与通用模式：模块导入、生命周期、事件监听、UI 组件、动画、资源、第三方 List 替代、TypeScript
+  语法坑。在用户做 Creator 2.4→3.8 量级脚本迁移、脚本路径对齐 2.x、或提到 cc 全局改 import 时启用。
 ---
 
 # Cocos Creator 2.x → 3.x 脚本迁移（通用）
@@ -12,6 +13,15 @@ description: >-
 
 - 把旧工程 JavaScript / `cc.*` 全局写法改为 3.x TypeScript。
 - 排查「可选链赋值报错」「自定义事件重复」「旧版 List 无 3.x 版」等问题。
+
+## 脚本目录与 2.x 一致（强制）
+
+- **规则**：3.x 中业务脚本的 **相对路径（相对仓库 `assets/`）** 须与 **`2x/assets/`** 下 **对应编译产物 `.js` 的路径一致**，仅将扩展名改为 **`.ts`**（以及语法改为 3.x TypeScript）。
+- **主包**：`2x/assets/_script/Foo.js` → `assets/_script/Foo.ts`。
+- **各资源目录 / 分包内 `_script`**：`2x/assets/resources/_script/Bar.js` → `assets/resources/_script/Bar.ts`；`2x/assets/Game/_script/...`、`2x/assets/res_*/_script/...` 等同理，**包名与中间目录层级与 2.x 对齐**。
+- **禁止**：在无 2.x 依据的情况下，把本应在某包（如 `resources`、`Game`）下 `_script` 的脚本 **统挪到根 `assets/_script/`**，以免与任务书对照、资源分包习惯及预制体/资源侧预期脱节。
+- **纠错**：若已放在错误目录，应 **迁回与 2.x 对称路径**；优先在 **Cocos Creator 内移动文件** 以自动维护引用，或 **保留脚本 `.meta` 的 `uuid`** 仅改磁盘路径后让编辑器刷新（避免断引用）。
+- **对照方式**：以 `2x/assets/**/*.js`（含各 `_script`）为清单，在 3.x 侧逐项确认 **同相对路径的 `.ts` 是否存在**。
 
 ## 官方 API 对照（`import { … } from 'cc'`）
 

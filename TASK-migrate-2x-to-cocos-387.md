@@ -14,7 +14,7 @@
 
 - **资源**：贴图、音频、字体、Spine/DragonBones（若使用）、JSON/配置等与 2.x 对应的资源导入与目录规划。
 - **场景与预制体**：2.x `.fire` / `.prefab` → 3.x `.scene` / `.prefab` 的等价重建或官方迁移流程；节点层级、组件绑定、Widget/Camera 等差异处理。
-- **脚本**：2.x JavaScript/TypeScript API → 3.x `import from 'cc'` 与组件装饰器、生命周期、事件与资源加载（如 `resources`）等改写。
+- **脚本**：2.x JavaScript/TypeScript API → 3.x `import from 'cc'` 与组件装饰器、生命周期、事件与资源加载（如 `resources`）等改写；**源码在 `assets/` 下的相对路径须与 `2x/assets` 侧对应 `.js` 一致**（见 **§3.6**）。
 - **构建与设置**：项目设置、分组、物理、渲染管线适配 3.8.7。
 - **验证**：编辑器内运行、目标平台构建、与 2.x 关键流程对比测试。
 
@@ -29,6 +29,7 @@
 | 优先级 | Skill | 典型用途 |
 |--------|--------|----------|
 | 高 | `cocos-creator-3x-cn` | 3.8 组件系统、生命周期、事件、`resources`、tween、UI、物理、可试玩广告等 3.x 开发规范。 |
+| 高 | `cocos-creator-2x-to-3x-scripts` | 2.x→3.x `.ts` 改写、`cc` 导入、通用踩坑与迁移顺序；**含脚本路径须与 `2x/assets` 目录结构一致**（见该 Skill 正文）。 |
 | 高 | `cocos-mcp-setup` | 在本仓库中配置/校验 Cocos 相关 MCP 与编辑器联动。 |
 | 中 | `cocos-web-restore` | 若存在已发布的 Web 构建产物需还原场景/预制体结构时参考（非必经）。 |
 | 低 | `cocos2d-x` | 与 Creator 2.x 并非同一产品线，仅在与底层概念类比时参考，**不作为 Creator 迁移主依据**。 |
@@ -66,11 +67,40 @@
 - 新增 **原始资源文件**（图片、音频等）的拷贝与组织；导入后由编辑器生成 `.meta`，**不要手写 `.meta`**。
 - 项目级 `package.json`、`tsconfig.json`、`settings/` 等与引擎版本相关的配置（按 3.8.7 文档调整）。
 
+### 3.5 预制体迁移（与 2.x 等价 + 脚本挂载规范）
+
+凡从 **`2x/` 迁移或按 2.x 重建的 `.prefab`**，须同时满足：
+
+| 要求 | 说明 |
+|------|------|
+| **结构等价** | 节点层级、命名、**active** 默认值、**Widget/Layout** 等与 `2x` 对应预制体对齐；缺资源时在台账或本文件记录差异，**不得无说明砍子树**。 |
+| **仅挂 3.x 脚本** | 自定义组件一律绑定 **`assets` 下已迁移的 `.ts`**（`import from 'cc'`、`@ccclass` 与 2.x 类名一致或可文档化改名；**脚本磁盘路径须符合 §3.6**）；**禁止**把 2.x 编译产物 `.js` 或仅 2.x 存在的混淆脚本类型挂进 3.x 预制体。 |
+| **事件与引用** | Button **ClickEvent**、序列化字段引用等，目标组件须为 **3.x 工程内存在的脚本类**；若 2.x 预制体指向的 **handler 在 3.x 源码中不存在**，须在对应 `.ts` **补全方法**或更正绑定，避免静默断链。 |
+| **实施方式** | **优先**用 **MCP `cocos_prefab` / `cocos_node` / `cocos_component`**（或编辑器）搭建/调整节点与组件；**禁止**手改 `.prefab` / `.meta` 破坏 UUID 引用链或随意增删顶层序列化对象。若预制体隔离编辑导致 MCP 无法解析根节点上的 3.x 脚本、从而无法写入 Button 的 `ClickEvent` 或脚本草稿引用，允许在结构已由 MCP 落盘的前提下，**仅改已有对象内字段**（如 `clickEvents` 内联项、`LoadUI` 的 `progressBar`/`dialogPopup` 等 `__id__` 引用），且改后须 **`cocos_prefab` → `validate` 通过**。 |
+
+**示例**：`LoadUI.prefab` 根节点挂 `LoadUI.ts`（继承 `LoadUIBase.ts`），与 2.x `LoadUI.js` 职责一致；弹窗按钮 `onClickDialogOK` 须在 `LoadUIBase`/`LoadUI` 中实现。
+
+### 3.6 脚本源码路径与 2.x 目录结构一致（强制）
+
+迁移后的业务 **`.ts`** 在 **`assets/`** 下的位置须与 **`2x/assets/`** 下 **对应编译产物 `.js`** 的相对路径 **一一对应**，**仅扩展名** `.js` → `.ts`，不得无故改变所在包或中间目录。
+
+| 2.x 示例 | 3.x 目标 |
+|----------|----------|
+| `2x/assets/_script/Foo.js` | `assets/_script/Foo.ts` |
+| `2x/assets/resources/_script/ShimmerWhite.js` | `assets/resources/_script/ShimmerWhite.ts` |
+| `2x/assets/Game/_script/...`、`2x/assets/res_*/_script/...` | `assets/Game/_script/...`、`assets/res_*/_script/...`（与左列中间路径一致） |
+
+**禁止**：在无 2.x 依据的情况下，将本应位于某 bundle / 资源目录下 `_script` 的脚本 **统一收敛到根 `assets/_script/`**。已放错路径的脚本应 **迁回对称路径**，并在 **`SCRIPT-MIGRATION-LEDGER.md`** 中注明（合并/改名仍以台账为准）。
+
+**实施提示**：优先在 **Cocos Creator 编辑器内移动** 脚本文件以维护引用；若仅修正历史误放且暂无序列化引用，可 filesystem 移动并 **保留原 `.meta` 的 `uuid`** 后由编辑器刷新。
+
+与 **Skill `cocos-creator-2x-to-3x-scripts`** 中的「脚本目录与 2.x 一致」条目保持同一含义。
+
 ## 4. 建议执行顺序（供后续迭代勾选）
 
 1. 阅读本任务文档 §3，列出当前可用 Skill 与 MCP 工具清单（可附检查日期）。
 2. 盘点 `2x/` 入口场景、主流程脚本与资源依赖图。
-3. 制定 3.x 目录与模块划分，批量迁移原始资源并依赖编辑器导入。
+3. 制定 3.x 目录与模块划分（**脚本路径遵循 §3.6**），批量迁移原始资源并依赖编辑器导入。
 4. 用 MCP 重建或迁移场景/预制体与组件绑定；脚本按 3.x API 分批替换。
 5. 运行与构建验证，记录与 2.x 的差异与待办。
 
@@ -78,7 +108,7 @@
 
 | 项 | 说明 |
 |----|------|
-| **工作对象** | 主包脚本：`2x/assets/_script/*.js` → `assets/_script/*.ts`（2.x 侧为编译产物，迁法见下方 **§6**）。 |
+| **工作对象** | **主包**：`2x/assets/_script/*.js` → `assets/_script/*.ts`；**各 bundle / 资源目录内 `_script`**（如 `resources/_script`、`Game/_script`、`res_*/_script` 等）：`2x/assets/…` 与 `assets/…` **相对路径须一致**，仅 `.js`→`.ts`（见 **§3.6**、**§6.9**）。2.x 侧均为编译产物，迁法见 **§6**。 |
 | **「未迁」怎么认** | 按**文件基名**对照：2.x 有 `Foo.js` 且 3.x 无 `Foo.ts` 即视为未迁（合并、拆分、改名以 **`SCRIPT-MIGRATION-LEDGER.md`** 表格与 §6 修订为准，不与基名机械等同）。 |
 | **进度与缺口** | 已迁批次、部分迁、弹窗与子包脚本：**不写在本文档**，统一看 **`SCRIPT-MIGRATION-LEDGER.md`**（§3 / §4 / §6）。 |
 | **新开对话如何接** | @ 本任务书 + `SCRIPT-MIGRATION-LEDGER.md`，说明「**继续主包 `_script` 未迁列表**」即可。 |
@@ -95,6 +125,8 @@
 | 2026-03-31 | 通用资源拷贝至根目录 `assets/` | 自 `2x/assets` 同步**非脚本、非 2.x 序列化**内容到 `E:\gitlab\307\assets`，供 3.8.7 工程导入并**由编辑器重新生成 `.meta`**（未拷贝 2.x 的 `.meta`，避免 UUID/引用与 3.x 冲突）。 |
 | 2026-03-31 | Bundle 配置迁移 | 将 2.x `assets/` 各目录 `.meta` 中的 bundle 信息（`isBundle: true`、`bundleName`、`priority`）按 3.x `userData` 格式写入根目录对应目录 `.meta`，并通过 MCP `cocos_asset reimport` 刷新。详见下方说明。 |
 | 2026-03-31 | 主包脚本迁移（持续） | 已迁/部分迁/弹窗与子包说明见 **`SCRIPT-MIGRATION-LEDGER.md`**。默认下一工作量：**对照 `2x/assets/_script` 与 `assets/_script` 补齐未迁 `.ts`**，见 **§4.1**。 |
+| 2026-04-01 | `LoadUI.prefab` 与 2.x 对齐 | 经 MCP 补全 `进度` / `版本` / `DialogPopup` 子树，根挂 `LoadUI.ts`；补序列化引用与 `BtnOK` 点击（见 **`SCRIPT-MIGRATION-LEDGER.md` §3**）；**§3.5** 实施方式补充「隔离编辑下允许仅改已有对象内字段 + validate」的例外说明。 |
+| 2026-04-01 | 脚本路径与 2.x 目录一致（规范） | 新增任务书 **§3.6**；重写 **§6.9** 表；Skill **`cocos-creator-2x-to-3x-scripts`** 增补强制规则；示例：`ShimmerWhite.ts` 迁入 **`assets/resources/_script/`** 与 2.x 对称。 |
 
 **本次拷贝规则（摘要）**
 
@@ -264,13 +296,15 @@ tween(this.node).to(0.35, { scale: new Vec3(1, 1, 1) }).start();
 
 ---
 
-### 6.9 文件格式与扩展名
+### 6.9 文件格式、扩展名与目录对称
 
-| 2x | 3x |
-|----|----|
+| 2.x | 3.x |
+|-----|-----|
 | `.js`（编译产物） | `.ts`（TypeScript 源码） |
-| 文件名不变，改扩展名 | `AdsMgr.js` → `AdsMgr.ts` |
-| 放在 `2x/assets/_script/` | 放在 `assets/_script/`（或对应 bundle 下 `_script/`） |
+| 文件名不变，仅改扩展名 | `AdsMgr.js` → `AdsMgr.ts` |
+| **相对 `assets/` 的目录与 2.x 一致** | 例如 `2x/assets/_script/` → `assets/_script/`；`2x/assets/resources/_script/` → `assets/resources/_script/`；`2x/assets/<包或目录>/…/_script/` → `assets/<同路径>/…/_script/` |
+
+**须与 §3.6 同读**：不得以「方便」为由把子包 `_script` 下的脚本挪到根 `assets/_script/`。
 
 ---
 
@@ -290,7 +324,7 @@ tween(this.node).to(0.35, { scale: new Vec3(1, 1, 1) }).start();
 
 ### 7.3 `_script`（已落地模块，持续增补）
 
-已在 **`assets/_script/`** 用 TypeScript 重写、可直接参与 3.8.7 编译的模块（相对 `2x/assets/_script/*.js`）：
+已在 **`assets/_script/`** 用 TypeScript 重写、可直接参与 3.8.7 编译的模块（相对 `2x/assets/_script/*.js`）。**非主包路径**（如 **`assets/resources/_script/`** 等）按 **§3.6** 与 2.x 对称，见各目录下 `.ts`，本节表格仅枚举主包示例。
 
 | 文件 | 说明 |
 |------|------|

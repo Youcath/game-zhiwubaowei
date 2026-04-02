@@ -1,5 +1,6 @@
 /**
- * 受击闪白（ShimmerWhite 材质 u_rate / u_color）（原 resources/_script/ShimmerWhite.js）
+ * 受击闪白（ShimmerWhite 材质 u_rate / u_color）
+ * 路径与 2.x `assets/resources/_script/ShimmerWhite.js` 对称。
  */
 
 import { _decorator, Color, Component, Material, Sprite, Vec4, sp } from 'cc';

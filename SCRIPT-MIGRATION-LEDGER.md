@@ -64,6 +64,7 @@
 | `_script/BattleDataProxy.js` | `BattleDataProxy.ts` | **部分** | 已增补：选技能链 `getSkillList`/`selectSkill`/`checkHasSkill`/`getSkillAttribute`、`updateHouseHp`（子集）、`EBattleEvent.SELECT_SKILL`/`SELECT_SKILL_FINISH`/`UPDATE_HOUSE_HP`，及 `SkillDataMgr`。**`updateHouseHp` 负数扣血与失败/复活全链路、`saveData` 持久化战斗数据等仍可能需对照 2.x 补全**。 |
 | `_script/Util.js` | `Util.ts` | **部分** | `showHurt` / `showMiss` / `playHurtEffect` 内为占位（`console.warn`，依赖战斗表现子系统）。 |
 | `_script/CServerItem.js`（及协议相关） | `CServerItem.ts` | **部分** | 注释写明：全量协议与 Socket 待迁；当前满足 LoadScene 等所需的 sessionId / token 等最小字段。 |
+| `Load/uis/LoadUI.prefab`（2.x 同名预制体） | `assets/Load/uis/LoadUI.prefab` + `LoadUI.ts` / `LoadUIBase.ts` | **完成** | 与 2.x 结构对齐：`Info` 下 `进度`（`cc.ProgressBar` + `loading` Spine + `描述`）、`版本`、`DialogPopup`（`BtnOK` → `onClickDialogOK`）；根仅挂 `LoadUI.ts`，并已序列化 `progressBar` / `progressLabel` / `progressBlock` / `dialogPopup`。2.x 弹窗部分贴图（如 `pic_chengzhang_di2`）当前工程未迁入，已用 `pic_BG` 半透明遮罩 + 文案区简化替代；若需像素级一致可后续补图。`cocos_prefab validate` 已通过。 |
 
 ---
 

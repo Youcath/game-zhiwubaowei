@@ -62,6 +62,10 @@ export class LoadUIBase extends ComponentBase {
   @property(Node)
   progressBlock: Node | null = null;
 
+  /** 与 2.x LoadUI.prefab 一致：登录异常弹窗根节点 `DialogPopup`（可选序列化绑定） */
+  @property(Node)
+  dialogPopup: Node | null = null;
+
   @property
   nextSceneBundle = '';
 
@@ -384,6 +388,12 @@ export class LoadUIBase extends ComponentBase {
       this._progress = e;
       this._progressTag = true;
     }
+  }
+
+  /** 2.x 预制体 BtnOK → LoadUI；关闭异常提示弹窗 */
+  onClickDialogOK(): void {
+    const p = this.dialogPopup ?? this.node.getChildByName('DialogPopup');
+    if (p != null) p.active = false;
   }
 
   resComplete(): Promise<boolean> {
