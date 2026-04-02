@@ -10,6 +10,12 @@ export interface IYzllGameConfig {
   mainTestBtn?: boolean;
   /** 微信侧是否按快手链路展示快捷入口等 */
   isKs?: boolean;
+  /** 4399 H5 等渠道 */
+  is4399?: boolean;
+  /** 测试服：激励视频等直接成功 */
+  isTest?: boolean;
+  /** 友盟 / wx.uma 等统计 */
+  bUseUma?: boolean;
   isopenCheck?: boolean;
   checkStr?: string;
 }

@@ -12,6 +12,7 @@ import {
   sys,
   UITransform,
 } from 'cc';
+import './platformInit';
 import { topNode } from './AppBase';
 import { AppEvent } from './AppProxy';
 import { CommonUtil } from './CommonUtil';
